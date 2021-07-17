@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1320.333" height="506.835" viewBox="0 0 1320.333 506.835">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Rectangle_652" data-name="Rectangle 652" d="M20.787,0H1299.213C1310.693,0,1320,8.373,1320,18.7V486.217c0,10.328-9.307,18.7-20.787,18.7H20.787C9.307,504.918,0,496.545,0,486.217V18.7C0,8.373,9.307,0,20.787,0Z" transform="translate(140.333 70)" fill="#17c878"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.05" y1="0.218" x2="0.22" y2="0.338" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0a5936" stop-opacity="0.251"/>
+      <stop offset="1" stop-color="#0a5936" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="fondo-banner-principal" transform="translate(-140 -70)">
+    <path id="Rectangle_652-2" data-name="Rectangle 652" d="M20.787,0H1299.213C1310.693,0,1320,8.4,1320,18.772V488.063c0,10.367-9.307,18.772-20.787,18.772H20.787C9.307,506.835,0,498.431,0,488.063V18.772C0,8.4,9.307,0,20.787,0Z" transform="translate(140.333 70)" fill="#17c878" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <g id="Mask_Group_70" data-name="Mask Group 70" transform="translate(-0.333)" clip-path="url(#clip-path)">
+      <g id="Group_96433" data-name="Group 96433" transform="translate(-154.789 -329.981)">
+        <ellipse id="Ellipse_4271" data-name="Ellipse 4271" cx="365.114" cy="366.5" rx="365.114" ry="366.5" transform="translate(733 584.282) rotate(90)" opacity="0.43" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <ellipse id="Ellipse_4272" data-name="Ellipse 4272" cx="365.114" cy="366.5" rx="365.114" ry="366.5" transform="translate(492.578 730.228) rotate(-90)" opacity="0.43" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+      <g id="Group_96434" data-name="Group 96434" transform="translate(500 -329.981)">
+        <ellipse id="Ellipse_4271-2" data-name="Ellipse 4271" cx="365.114" cy="366.5" rx="365.114" ry="366.5" transform="translate(733 584.282) rotate(90)" opacity="0.43" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <ellipse id="Ellipse_4272-2" data-name="Ellipse 4272" cx="365.114" cy="366.5" rx="365.114" ry="366.5" transform="translate(492.578 730.228) rotate(-90)" opacity="0.43" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+      <g id="Group_96435" data-name="Group 96435" transform="translate(594 -262.239)" opacity="0.69">
+        <ellipse id="Ellipse_4271-3" data-name="Ellipse 4271" cx="365.114" cy="366.5" rx="365.114" ry="366.5" transform="translate(733 584.282) rotate(90)" opacity="0.43" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <ellipse id="Ellipse_4272-3" data-name="Ellipse 4272" cx="365.114" cy="366.5" rx="365.114" ry="366.5" transform="translate(492.578 730.228) rotate(-90)" opacity="0.43" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+      <g id="Group_96436" data-name="Group 96436" transform="translate(394 -417.649)" opacity="0.69">
+        <ellipse id="Ellipse_4271-4" data-name="Ellipse 4271" cx="365.114" cy="366.5" rx="365.114" ry="366.5" transform="translate(733 584.282) rotate(90)" opacity="0.43" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        <ellipse id="Ellipse_4272-4" data-name="Ellipse 4272" cx="365.114" cy="366.5" rx="365.114" ry="366.5" transform="translate(492.578 730.228) rotate(-90)" opacity="0.43" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+      </g>
+    </g>
+  </g>
+</svg>
