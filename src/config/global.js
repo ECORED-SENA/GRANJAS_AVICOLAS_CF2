@@ -169,12 +169,6 @@ export default {
     ],
     subMenu: [
       {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
-      {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
@@ -204,134 +198,117 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Burbano A. (2006). Costos y presupuestos. Segunda edición. Ediciones Uniandes.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://es.scribd.com/read/436270130/Costos-y-presupuestos-Segunda-edicion',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Decreto 410 de 1971 [Presidencia de la República] Por el cual se expide el Código de Comercio. Marzo 27 de 1971',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio.html',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Lira P. (2016). Apuntes de finanzas operativas. Universidad Peruana de Ciencias Aplicadas S.A.C.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://es.scribd.com/read/401875272/Apuntes-de-Finanzas-Operativas-Lo-basico-para-saber-operar-una-empresa-financieramente',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Pérez V. y Manuel F. (1985). La evaluación organizacional. p.67-74.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://journals.copmadrid.org/jwop/files/1985/vol1/arti2.htm#_Hlk445286354',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Planas F. E. (2018). Todo sobre la gestión de su empresa. Editorial de Vecchi.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://es.scribd.com/read/388236109/Todo-sobre-la-gestion-de-su-empresa',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Rincón C. y Narváez J. (2017). Presupuestos bajo normas internacionales de información financiera y taxonomía XBRL. Ediciones de la U.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://es.scribd.com/read/436221926/Presupuestos-Bajo-normas-internacionales-de-informacion-financiera-y-taxonomia-XBRL.',
+    },
+    {
+      referencia:
+        'Rodríguez D. (2016). Diagnóstico organizacional. Octava edición. Ediciones Universidad Católica de Chile.',
+      link:
+        'https://es.scribd.com/document/429486479/diagnostico-organizacional',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Empresa',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'sistema de organización social para generar valor económico o prestar un servicio a la comunidad.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Excedentes/utilidades',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'beneficio económico resultante al tomar los ingresos y deducir los costos y gastos.',
     },
     {
-      termino: 'Pirognóstico',
-      significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+      termino: 'Persona natural',
+      significado: 'individuo de la raza humana con derechos y obligaciones.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Persona jurídica',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'figura jurídica compuesta por una o más personas naturales con identidad propia, pero sin la capacidad de actuar por sí misma. Es diferente a todas las personas que la componen, y requiere de un representante legal para actuar.',
     },
     {
-      termino: 'Moda',
+      termino: 'Retroalimentación',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'sistema cíclico mediante el cual los resultados obtenidos en un proceso se reintegran nuevamente al mismo para mejorarlo.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Estrategia',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'plan diseñado para ejecutar acciones y alcanzar objetivos, enmarcado en unos parámetros definidos por los directivos.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Tributario',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'en el contexto del componente, asociado con impuestos, entendidos como las contribuciones exigidas por el gobierno',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Ciclo operativo:',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'proceso que abarca todas las etapas desde la compra de materia prima hasta la venta del producto terminado.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Objeto social',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'labor para la cual fue concebida una empresa, incluye todas las actividades que se van a ejecutar de manera recurrente.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Plusvalía',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'valorización que obtiene un bien inmueble con el paso del tiempo.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Margen de rentabilidad:',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'ratio que determina la proporción de utilidad al tomar un ingreso y dividirlo en los costos necesarios para generarlo.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Diagnóstico organizacional. Meza B, A, El diagnóstico organizacional: elementos, métodos y técnicas (2009).',
+      tipo: 'Artículo web',
+      link:
+        'https://www.infosol.com.mx/miespacio/el-diagnostico-organizacional-elementos-metodos-y-tecnicas/',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Plan de Producción. Pérez A. Plan de producción de una empresa: el pilar de toda buena gestión corporativa (2019)',
+      tipo: 'Artículo web',
+      link:
+        'https://www.obsbusiness.school/blog/plan-de-produccion-de-una-empresa-el-pilar-de-toda-buena-gestion-corporativa',
     },
   ],
   creditos: {
