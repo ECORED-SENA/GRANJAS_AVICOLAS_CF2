@@ -19,7 +19,7 @@
         .cajon.color-light-green.p-4
           figcaption.customCaption.mb-2  Figura 11 Flujograma de distribución de egresos
           figure.mb-5
-            img(src='@/assets/curso/t4-i2.jpg', alt='personas en una fabrica')
+            img(src='@/assets/curso/t4-i2.svg', alt='personas en una fabrica')
           figcaption  <b>Nota.</b> Tomado del libro “Presupuestos bajo normas internacionales de información financiera y taxonomía XBRL”. Rincón y Narváez, (2017).
 
 
@@ -29,9 +29,9 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .cajon.color-light-green.p-4
-          figcaption.customCaption.mb-2  Figura 11 Flujograma de distribución de egresos
+          figcaption.customCaption.mb-2  Figura 12 Flujograma de distribución de egresos
           figure.mb-5
-            img(src='@/assets/curso/t4-i2.jpg', alt='personas en una fabrica')
+            img(src='@/assets/curso/t4-i3.svg', alt='personas en una fabrica')
           figcaption <b>Nota.</b> Tomado del libro “Presupuestos bajo normas internacionales de información financiera y taxonomía XBRL”. Rincón y Narváez, (2017).
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Materia prima" :icono="require('@/assets/curso/t4-ic1.svg')")
