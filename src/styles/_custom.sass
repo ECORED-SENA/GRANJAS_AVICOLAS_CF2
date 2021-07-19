@@ -42,6 +42,96 @@ figcaption
   color: #000
 .linea-tiempo-b__icon img
   width: 60%
+.color-green-light
+  background-color: #F4FDF9
+.outlined-box
+  border: 3px solid #FFBA5B
+  display: block
+.highlight-box
+  background-color: #FCF5D2
+  position: relative
+.highlight-box img
+  position: absolute
+  left: 25px
+.highlight-box figure
+  position: relative
+.nav-holder
+  display: inline-block;
+  margin: 10px 5px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  -webkit-transform: translateZ(0)
+  -moz-transform: translateZ(0)
+  transform: translateZ(0)
+
+.nav-holder *, .nav-holder *:before, .nav-holder *:after
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  -moz-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+
+.nav-holder:before
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  content: ''
+  background-color: #0c5835
+  z-index: 888
+  opacity: 0.7
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  transition: all 0.45s ease
+
+.nav-holder:before
+  -webkit-transform: translateY(100%)
+  -moz-transform: translateY(100%)
+  transform: translateY(100%)
+
+.nav-holder:hover:before
+  -webkit-transform: translateY(0)
+  -moz-transform: translateY(0)
+  transform: translateY(0)
+  opacity: 0.8
+  bottom: 0px
+  -webkit-transition-delay: 0.1s
+  -moz-transition-delay: 0.1s
+  transition-delay: 0.1s
+
+.nav-holder
+  .text
+    position: absolute
+    top: 0px
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 999
+  img
+    backface-visibility: hidden
+    vertical-align: top
+    z-index: 0
+  p, i
+    opacity: 0
+    text-align: center
+
+.nav-holder h3
+    margin: 0
+    opacity: 1
+    margin-top: 25%
+
+.nav-holder:hover
+  p, i
+    opacity: 1
+    -webkit-transition-delay: 0.2s
+    -moz-transition-delay: 0.2s
+    transition-delay: 0.2s
+.nav-holder *
+  color: #fff
+
 .slideInLeft
   -webkit-animation-name: slideInLeft
   animation-name: slideInLeft
