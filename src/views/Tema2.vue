@@ -61,22 +61,78 @@
         .col-md-3.mb-4.mb-md-0
           figure.mb-5
             img.h110(src='@/assets/curso/t2-i6.svg', alt='imagen decorativa')          
-
+    Separador
+    br
+    br
 
     #t_2_2.titulo-segundo
       h2 2.2  Materiales
     p.mb-5  Los elementos materiales comprenden aquellos bienes tangibles necesarios para desarrollar el objeto social de la empresa. Pueden clasificarse según el tiempo que se espera permanezcan en la organización así:
-    
+    .tarjeta--container.row.mb-5
+      .col-lg-6.tarjeta.c1.p-5
+        .row.justify-content-center.mb-4.p-5.text-center
+          .col-6
+            figure.mb-5(data-aos="flip-left", data-aos-delay='0')
+              img.h180(src='@/assets/curso/t2-i7.svg', alt='Imagen Decorativa')
+          
+          .h2 Corrientes
+          p Aquellos de los que se espera disponer en periodos inferiores a un año, tal es el caso de las materias primas que serán usadas en el proceso de producción o los productos terminados dispuestos para la venta.
 
+      .col-lg-6.tarjeta.c2.p-5
+        .row.justify-content-center.mb-4.p-5.text-center
+          .col-6
+            figure.mb-5(data-aos="flip-right", data-aos-delay='100')
+              img.h180(src='@/assets/curso/t2-i8.svg', alt='imagen decorativa')
+          
+          .h2 No corrientes
+          p Son los elementos utilizados en varios ciclos productivos, y de los cuales se espera generen beneficios a la empresa durante periodos superiores a un año. Se encuentran bienes como la maquinaria, los muebles y enseres o las edificaciones.
+
+    Separador
+    br
+    br
 
     #t_2_3.titulo-segundo
       h2 2.3  Técnicos
+    p.mb-3  Se refiere a los procedimientos y conocimientos propios de la actividad que desarrolla la empresa. Se encuentran asociados a cualquier proceso, ya sea administrativo, de producción o comercial. Ejemplos de estas categorías son los siguientes:
+    LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")    
 
+
+    Separador
+    br
+    br
     #t_2_4.titulo-segundo
       h2 2.4  Financieros
 
+    p.mb-5  Hace referencia al capital dispuesto en dinero o en títulos valores de alta liquidez. La obtención de capital se hace a través de diversas fuentes, y su correcta administración garantizará que todos los demás elementos puedan funcionar de manera fluida y permanente. Los sistemas de obtención de capital son los siguientes:
+    TabsA.color-acento-botones.mb-5
+      .tarjeta.color-acento-botones--borde.p-5(titulo="Fuentes operativas")
+        .row
+          .col-lg-4
+            figure.mb-5
+              img.nW(src='@/assets/curso/t2-i9.svg', alt='imagen decorativa')
+          .col-lg-8
+            h3 Fuentes operativas
+            p Venta de los bienes y servicios producidos u ofertados por la empresa, esto incluye el recaudo de la cartera y las ventas de contado. Es la fuente de capital más importante dado que da cumplimiento a la concepción con la cual fue creada la empresa.
 
+      
+      .tarjeta.color-acento-botones--borde.p-5(titulo="Fuentes de financiación")
+        .row
+          .col-lg-4
+            figure.mb-5
+              img.nW(src='@/assets/curso/t2-i10.svg', alt='imagen decorativa')
+          .col-lg-8
+            h3 Fuentes de financiación
+            p Corresponde a los dineros recibidos por parte del sector financiero o los acreedores privados. Son dineros que se reciben con una promesa de ser retornados en un plazo determinado, asumiendo unos costos por intereses. Es un sistema alternativo de consecución de capital que puede provenir de fuentes internas como lo son los aportes de capital de los propietarios, o de fuentes externas como los créditos de libre inversión que ofrecen los bancos.
 
+      .tarjeta.color-acento-botones--borde.p-5(titulo="Fuentes de inversión")
+        .row
+          .col-lg-4
+            figure.mb-5
+              img.nW(src='@/assets/curso/t2-i11.svg', alt='imagen decorativa')
+          .col-lg-8
+            h3 Fuentes de inversión
+            p.mb-3  Son aquellas rentas obtenidas por actividades accesorias a la principal. Un ejemplo común es el arrendamiento de propiedades que no están siendo utilizadas o la venta de inmuebles que han generado plusvalía.
+            p.mb-3  En esta categoría hay que prestar especial atención a la venta de los activos no corrientes de la empresa; dado que una venta indiscriminada de los mismos podría llevar a no contar con las instalaciones suficientes para llevar a cabo los procesos propios de la empresa y sus consecuentes falencias en la producción o comercialización de los bienes ofertados. 
 
 
 
@@ -90,7 +146,26 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    datosLineaTiempoB: [
+      {
+        titulo: 'Administrativo',
+        texto:
+          'Políticas empresariales, organigramas, sistemas de control interno o de calidad. Un sistema a la medida para el reclutamiento de personal puede garantizar una selección idónea de trabajadores que impulse los niveles de productividad en cualquier área de la organización.',
+        icono: require('@/assets/curso/t2-ic1.svg'),
+      },
+      {
+        titulo: 'Producción',
+        texto:
+          'Patentes, fórmulas o recetas asociadas a la creación del producto. Algunas empresas deben su enorme éxito a este elemento, tal es el caso de Coca Cola, que se ha conservado como la bebida más popular en el mundo gracias a su característico y único sabor.',
+        icono: require('@/assets/curso/t2-ic2.svg'),
+      },
+      {
+        titulo: 'Comercial',
+        texto:
+          'Imagen corporativa, estrategias de mercadeo, bases de datos. Existen compañías que son reconocidas dentro de su rubro y mantienen niveles altos de ventas gracias a su reputación. ',
+        icono: require('@/assets/curso/t2-ic3.svg'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
