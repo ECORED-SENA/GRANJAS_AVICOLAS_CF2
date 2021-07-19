@@ -2,139 +2,87 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
     .titulo-principal
-      .h3 Producción Audiovisual
+      .titulo-principal__numero
+        span 2
+      h1 Disponibilidad de recursos
     
-    #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
-    
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
+    .row.mb-5
+      .col-lg-8
+        p.mb-3  La empresa como sistema que funciona dentro de un entorno determinado requiere de interacciones con agentes externos que actúan desde diferentes fases del ciclo operativo. Al inicio de este, los proveedores y acreedores suministran los insumos necesarios para el desarrollo del objeto social, y al final, son los clientes quienes demandan la entrega del bien o servicio. La contraprestación recibida por estos últimos posibilita el inicio de un nuevo ciclo que perpetúe la generación de valor.
+        p.mb-3  Del apartado anterior se infiere que los recursos son el medio a través del cual la empresa ejecuta la estrategia para la que fue concebida; en este sentido, la concepción del término “recursos” es tan amplia que alberga elementos de cualquier naturaleza. 
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .col-lg-4
+        figure.mb-5
+          img(src='@/assets/curso/t2-i1.png', alt='personas en una fabrica')
+    
+    .cajon.mb-5.p-4.color-acento-botones
+      p Para aterrizar un poco más el término, resulta apropiada una clasificación que permita identificar los tipos de recursos necesarios en un sistema empresarial. Así pues, se propone y detalla la siguiente clasificación dada su amplia aceptación en el medio: 
+    
+    .row.mb-5.justify-content-center
+      .col-lg-8
+        .cajon.color-light-green.p-4
+          figcaption.customCaption.mb-2  Figura 6 Recursos de una empresa
+          figure.mb-5
+            img(src='@/assets/curso/t2-i2.svg', alt='ilustracion de recursos de una empresa')            
+          figcaption  <b>Nota.</b> Elaboración propia.
+
+    #t_2_1.titulo-segundo
+      h2 2.1  Humanos
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-8
+              .bloque-texto-a__texto.p-4
+                p.mb-3  La empresa es una organización de carácter social y para llevar a cabo su función requiere de la interacción humana, ya sea entre trabajadores y directivos, o vendedores y clientes. El factor humano es inherente al sistema organizacional, y su relevancia es tal, que una buena gestión del talento humano puede potenciar las ventajas competitivas y mejorar enormemente los rendimientos financieros de cualquier compañía.
+                p Existen tres grupos para clasificar el elemento humano:
+
+            .col-lg-4.mb-4.mb-lg-0
+              figure
+                img.h200(src='@/assets/curso/t2-i3.svg', alt='imagen decorativa')  
+    
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+      .row(titulo="Propietarios")
+        .col-md-8
+          p.mb-3  Son quienes aportan el capital, es decir, los dueños de la compañía y quienes usualmente toman las decisiones a gran escala como el objeto social de la compañía, el tipo societario, la aprobación de la información financiera o la destinación de los excedentes. Usualmente ejercen su posición a través de la junta de socios o asamblea de accionistas; sin embargo, cuando la empresa es pequeña, los propietarios suelen ejercer el control de manera directa, por lo que son directivos al mismo tiempo.
+        .col-md-3.mb-4.mb-md-0
+          figure.mb-5
+            img.h110(src='@/assets/curso/t2-i4.svg', alt='imagen decorativa')          
+      .row(titulo="Directivos")
+        .col-md-8
+          p.mb-3  Son designados para actuar en representación de los propietarios y son los encargados de llevar a cabo el correcto desarrollo operativo. Ejemplo de estos son la junta directiva y los gerentes generales y de áreas específicas. Toman decisiones de nivel estratégico y dirigen la compañía en función de los lineamientos generales establecidos por los propietarios.
+        .col-md-3.mb-4.mb-md-0
+          figure.mb-5
+            img.h110(src='@/assets/curso/t2-i5.svg', alt='imagen decorativa')          
+      .row(titulo="Trabajadores")
+        .col-md-8
+          p.mb-3  Llevan a cabo las labores operativas, son nombrados por los directivos o sus designados, y se dedican a ejecutar las tareas que estos estos les encargan. En esta categoría encontramos los operarios, jefes de área y los supervisores.
+        .col-md-3.mb-4.mb-md-0
+          figure.mb-5
+            img.h110(src='@/assets/curso/t2-i6.svg', alt='imagen decorativa')          
+
 
     #t_2_2.titulo-segundo
-      .h4 2.2 Video Motion
+      h2 2.2  Materiales
+    p.mb-5  Los elementos materiales comprenden aquellos bienes tangibles necesarios para desarrollar el objeto social de la empresa. Pueden clasificarse según el tiempo que se espera permanezcan en la organización así:
+    
 
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     #t_2_3.titulo-segundo
-      .h4 2.3 Motion + Presentador
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      h2 2.3  Técnicos
 
     #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
+      h2 2.4  Financieros
 
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    #t_2_5.titulo-segundo
-      .h4 2.5 Video interactivo
 
-    p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
 
-    figure.mb-5
-      .video
-        iframe(src="https://vizia.co/videos/94d994c5fe93f1b08a60eb/embed" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
 
-    #t_2_6.titulo-segundo
-      .h4 2.6 Infografías
 
-    p.mb-4 Es una herramienta de comunicación de alta precisión, el cual tiene una narrativa gráfica con un texto corto acompañada de elementos visuales que tienen como intención de captar rápidamente la atención del lector. 
 
-    figure.mb-5
-      img(src='@/assets/curso/infografia-1.jpg', alt='Infografía Fundamentos del Servicio de Interpretación')
-      figcaption Fundamentos del Servicio de Interpretación
 
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Fundamentos del Servicio de Interpretación
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/fundamentos_del_servicio_de_Interpretacion.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-2.jpg', alt='Infografía Plan de Negocios')
-      figcaption Plan de Negocios
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Plan de Negocios
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/plan_de_negocios.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-3.jpg', alt='Infografía Cobertura poblacional')
-      figcaption Cobertura poblacional
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Cobertura poblacional
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/cobertura_poblacional.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-4.jpg', alt='Infografía Historia de las microfinanzas: Mohammad Yunus')
-      figcaption Historia de las microfinanzas: Mohammad Yunus
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Historia de las microfinanzas: Mohammad Yunus
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/historia_de_las_microfinanzas_mohammad_yunus.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-5.jpg', alt='Infografía Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica')
-      figcaption Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/psicologia_de_la_moda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
 
 </template>
 
