@@ -128,21 +128,21 @@
 
     #t_3_4.titulo-segundo
       h2 3.4  Presupuesto inicial de la empresa
-      PasosA.color-acento-botones.mb-5(tipo="l")
-        div
-          p Los ciclos operativos de las empresas varían en cuanto a extensión dependiendo del tipo de la actividad que se realice. 
+    PasosA.color-acento-botones.mb-5(tipo="l")
+      div
+        p Los ciclos operativos de las empresas varían en cuanto a extensión dependiendo del tipo de la actividad que se realice. 
 
-        div
-          p Una empresa del sector agrícola puede tener un ciclo de 4 meses si eso es lo que tarda recolectar los frutos de una cosecha, pero otra del mismo sector puede requerir de 8 meses; esto implica que la variedad de extensiones de tiempo requeridas sea tan diversa que complique la homologación o comparativa entre diferentes organizaciones.
-        
-        div
-          p Para temas fiscales y normativos en general, el Estado suele estandarizar estos periodos de tiempo en periodos de un año, situación que ha llevado al mundo empresarial a adoptar este mismo sistema más allá de las particularidades de cada sistema empresarial.
-        div
-          p El presupuesto inicial entra en esta homogeneización de periodos dado que es el formulado por cada empresa al inicio del año, y que actúa como punto de partida para la operación de todos los sistemas involucrados en el funcionamiento de la compañía. 
-        div
-          p Así, por regla general, este comprende la estimación de todas las operaciones a efectuar entre el 1 de enero y el 31 de diciembre de cada año. 
-        div
-          p Por lo tanto, este presupuesto es considerado uno de los elementos más importantes en la planeación dado que involucra tanto las actividades operativas como aquellas ocasionales que espera se efectúen en el transcurso del año. 
+      div
+        p Una empresa del sector agrícola puede tener un ciclo de 4 meses si eso es lo que tarda recolectar los frutos de una cosecha, pero otra del mismo sector puede requerir de 8 meses; esto implica que la variedad de extensiones de tiempo requeridas sea tan diversa que complique la homologación o comparativa entre diferentes organizaciones.
+      
+      div
+        p Para temas fiscales y normativos en general, el Estado suele estandarizar estos periodos de tiempo en periodos de un año, situación que ha llevado al mundo empresarial a adoptar este mismo sistema más allá de las particularidades de cada sistema empresarial.
+      div
+        p El presupuesto inicial entra en esta homogeneización de periodos dado que es el formulado por cada empresa al inicio del año, y que actúa como punto de partida para la operación de todos los sistemas involucrados en el funcionamiento de la compañía. 
+      div
+        p Así, por regla general, este comprende la estimación de todas las operaciones a efectuar entre el 1 de enero y el 31 de diciembre de cada año. 
+      div
+        p Por lo tanto, este presupuesto es considerado uno de los elementos más importantes en la planeación dado que involucra tanto las actividades operativas como aquellas ocasionales que espera se efectúen en el transcurso del año. 
     
     Separador
     br
