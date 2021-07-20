@@ -207,19 +207,18 @@
           p Existen diferentes escalas de medición para determinar la categoría de una empresa según su tamaño, sin embargo, la legislación colombiana ha reglamentado este aspecto para la emisión de normatividad que apele a este sistema. La ley 590 del 2000 indicó las categorías y los lineamientos básicos sobre los cuales se podría determinar el tamaño de las empresas, dándole cabida a criterios como el número de trabajadores, las ventas brutas anuales o el valor de los activos; no obstante, es el decreto 957 de 2019 del Ministerio de Comercio, Industria y Turismo el que reglamentó este aspecto según el sector económico en el que se desarrolle la actividad de la empresa y en función de sus ingresos por actividades ordinarias.
           
           a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal1 = true")
-            span Abrir modal
+            span Ver clasificación
             .indicador--click(v-if="mostrarIndicador")
             
       ModalA(:abrir-modal.sync="modal1")
         .row.align-items-center
-          .col-md-6.mb-4.mb-md-0
-            h4 Modal 1
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
+          .col-md-12.mb-4.mb-md-0
+              figcaption.customCaption.mb-2  Tabla 2 Clasificación de las empresas según Decreto 957
+              figure
+              img(src='@/assets/curso/t1-c1.png', alt='Texto que describa la imagen')
+              figcaption <b>Nota.</b> Elaboración propia a partir del decreto 957 del Ministerio de Comercio, Industria y Turismo (2019).
+
+            
 
 
     .cajon.color-green-light.p-4.mb-5
@@ -513,7 +512,8 @@ export default {
     Muestras, // borrar una vez el componente "Muestras" no se necesite
   },
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
+    modal1: false,
   }),
   mounted() {
     this.$nextTick(() => {
