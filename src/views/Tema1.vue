@@ -61,7 +61,7 @@
               figure
                 img.h80(src='@/assets/curso/t1-i3.svg', alt='icono decorativo')
             .col-md-10.mb-4.mb-md-0
-              p.text-small Agrupa aquellas que desarrollan actividades asociadas a la explotación de recursos naturales. En este sector no se suelen involucrar actividades de transformación, por lo que el consumidor/cliente toma los recursos tal y como fueron extraídos. 
+              p Agrupa aquellas que desarrollan actividades asociadas a la explotación de recursos naturales. En este sector no se suelen involucrar actividades de transformación, por lo que el consumidor/cliente toma los recursos tal y como fueron extraídos. 
 
 
           .row(numero="2" titulo="Sector secundario")
@@ -69,14 +69,14 @@
               figure
                 img.h80(src='@/assets/curso/t1-i4.svg', alt='icono decorativo')
             .col-md-10.mb-4.mb-md-0
-              p.text-small Comprende las empresas que prestan actividades de manufactura, es decir, que adquieren materias primas y aplican los procesos necesarios para transformarlos en otro tipo de bienes.  
+              p Comprende las empresas que prestan actividades de manufactura, es decir, que adquieren materias primas y aplican los procesos necesarios para transformarlos en otro tipo de bienes.  
 
           .row(numero="3" titulo="Sector terciario")
             .col-md-2
               figure
                 img.h80(src='@/assets/curso/t1-i5.svg', alt='icono decorativo')
             .col-md-10.mb-4.mb-md-0
-              p.text-small Incluye las empresas que se dedican a la intermediación en la compraventa de bienes sin aplicar procesos de transformación, así como aquellas dedicadas a la prestación de servicios.  
+              p Incluye las empresas que se dedican a la intermediación en la compraventa de bienes sin aplicar procesos de transformación, así como aquellas dedicadas a la prestación de servicios.  
     
     
     Separador
@@ -99,7 +99,7 @@
               figure
                 img.h80(src='@/assets/curso/t1-i6.svg', alt='icono decorativo')
             .col-md-10.mb-4.mb-md-0
-              p.text-small El capital proviene del sector público, suelen estar enfocadas en la ejecución de actividades de naturaleza social o la explotación de recursos naturales de propiedad del Estado. 
+              p El capital proviene del sector público, suelen estar enfocadas en la ejecución de actividades de naturaleza social o la explotación de recursos naturales de propiedad del Estado. 
 
 
           .row(numero="2" titulo="Privada")
@@ -107,14 +107,14 @@
               figure
                 img.h80(src='@/assets/curso/t1-i7.svg', alt='icono decorativo')
             .col-md-10.mb-4.mb-md-0
-              p.text-small Su capital proviene de particulares, pues comprende todo tipo de actividades y la destinación de sus excedentes suele ser la reinversión o la generación de dividendos, entendiendo estos últimos como los beneficios económicos generados para los propietarios de la empresa.  
+              p Su capital proviene de particulares, pues comprende todo tipo de actividades y la destinación de sus excedentes suele ser la reinversión o la generación de dividendos, entendiendo estos últimos como los beneficios económicos generados para los propietarios de la empresa.  
 
           .row(numero="3" titulo="Mixta")
             .col-md-2
               figure
                 img.h80(src='@/assets/curso/t1-i8.svg', alt='icono decorativo')
             .col-md-10.mb-4.mb-md-0
-              p.text-small Se compone de la conjunción de los dos tipos de capitales, público y privado. Suelen surgir de la necesidad del Estado de conseguir recursos adicionales ya sea para dinamizar su operación o para cubrir déficits presupuestales.
+              p Se compone de la conjunción de los dos tipos de capitales, público y privado. Suelen surgir de la necesidad del Estado de conseguir recursos adicionales ya sea para dinamizar su operación o para cubrir déficits presupuestales.
 
     Separador
     .row.mb-5
@@ -136,28 +136,28 @@
               figure
                 img.h80(src='@/assets/curso/t1-i9.svg', alt='icono decorativo')
             .col-md-10.mb-4.mb-md-0
-              p.text-small Se enfocan a desarrollar su actividad únicamente en la localidad o municipio donde está su planta física. 
+              p Se enfocan a desarrollar su actividad únicamente en la localidad o municipio donde está su planta física. 
 
           .row(numero="2" titulo="Regional")
             .col-md-2
               figure
                 img.h80(src='@/assets/curso/t1-i10.svg', alt='icono decorativo')
             .col-md-10.mb-4.mb-md-0
-              p.text-small Llevan a cabo su operación en más de un municipio, pero restringiéndose a un departamento o región en concreto. 
+              p Llevan a cabo su operación en más de un municipio, pero restringiéndose a un departamento o región en concreto. 
 
           .row(numero="3" titulo="Nacional")
             .col-md-2
               figure
                 img.h80(src='@/assets/curso/t1-i11.svg', alt='icono decorativo')
             .col-md-10.mb-4.mb-md-0
-              p.text-small Operan y venden sus bienes y servicios en diversas regiones del país, pues abarcan una porción significativa del mismo a través de distintas sucursales o sistemas de distribución más complejos y grandes.
+              p Operan y venden sus bienes y servicios en diversas regiones del país, pues abarcan una porción significativa del mismo a través de distintas sucursales o sistemas de distribución más complejos y grandes.
 
           .row(numero="4" titulo="Multinacional")
             .col-md-2
               figure
                 img.h80(src='@/assets/curso/t1-i12.svg', alt='icono decorativo')
             .col-md-10.mb-4.mb-md-0
-              p.text-small Desarrollan actividades operativas en varios países y usualmente existe una central de operaciones a nivel global conocida como matriz, mientras que las sucursales que operan alrededor del mundo se conocen como subsidiarias o filiales. 
+              p Desarrollan actividades operativas en varios países y usualmente existe una central de operaciones a nivel global conocida como matriz, mientras que las sucursales que operan alrededor del mundo se conocen como subsidiarias o filiales. 
 
     Separador
     .row.mb-5
@@ -178,8 +178,8 @@
               figure
                 img.h80(src='@/assets/curso/t1-i13.svg', alt='icono decorativo')
             .col-md-10.mb-4.mb-md-0
-              p.text-small.mb-3 Son aquellas que se constituyen de manera independiente a los socios que la integran, tienen un número de identificación tributaria propio dada su personería jurídica y las responsabilidades frente a terceros son asumidas directamente por la empresa y su representante legal.
-              p.text-small.mb-3 En Colombia existen varios tipos de empresas de naturaleza societaria y la forma de identificar su tipo societario es verificando la terminación de su nombre comercial a modo de ejemplo y como las de mayor acogida en el país se presentan las siguientes:
+              p.mb-3 Son aquellas que se constituyen de manera independiente a los socios que la integran, tienen un número de identificación tributaria propio dada su personería jurídica y las responsabilidades frente a terceros son asumidas directamente por la empresa y su representante legal.
+              p.mb-3 En Colombia existen varios tipos de empresas de naturaleza societaria y la forma de identificar su tipo societario es verificando la terminación de su nombre comercial a modo de ejemplo y como las de mayor acogida en el país se presentan las siguientes:
             .col-lg-12
               figcaption.customCaption.mb-2  Tabla 1 Tipos de empresas de naturaleza societaria
               figure
@@ -189,7 +189,7 @@
               figure
                 img.h80(src='@/assets/curso/t1-i14.svg', alt='icono decorativo')
             .col-md-10.mb-4.mb-md-0
-              p.text-small Constituidas por una sola persona natural, toda responsabilidad frente a terceros es asumida por el titular de esta. No tienen personería jurídica ni cuentan con una identificación separada de la persona que la crea.  
+              p Constituidas por una sola persona natural, toda responsabilidad frente a terceros es asumida por el titular de esta. No tienen personería jurídica ni cuentan con una identificación separada de la persona que la crea.  
             
     Separador
     .row.mb-5
@@ -240,7 +240,7 @@
           .bloque-texto-b__texto(data-aos="fade-up", data-aos-delay='0')
             i.fas.fa-quote-left
             p.mb-0.mx-5 Las empresas funcionan como sistemas abiertos, toman del exterior recursos como materias primas o capital, conocidas como inputs o entradas, por ejemplo, comprando barriles de leche, que se transforman, y reintegran al entorno en forma de outputs o salidas, en este caso en particular, en forma de queso o mantequilla.
-            span.mx-5  Código de Comercio, 1971, Artículo 25
+            p.mx-5.text-right.text-bold  - Palabras de Planas (2018)
             i.fas.fa-quote-right
 
         p.mb-3 Para que estos sistemas evolucionen deben existir métodos para retroalimentar los procesos existentes o la creación de nuevos cuando sea necesario. Las estrategias de mejoramiento continuo cumplen con esta premisa pues están enfocadas en maximizar la rentabilidad, pero para ello requieren el compendio de toda la información disponible para refinar cada uno de los elementos involucrados. 
