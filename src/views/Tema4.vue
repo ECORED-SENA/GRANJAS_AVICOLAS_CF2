@@ -9,7 +9,8 @@
       h1 Costos de producción    
     .row.mb-5
       .col-lg-7(data-aos="fade-left", data-aos-delay='0')  
-        p.mb-5  El proceso productivo involucra todas las áreas que tienen relación directa con la elaboración del producto o la prestación del servicio. La correcta gestión de este aspecto permite la optimización de los costos, lo que puede traducirse en una mayor rentabilidad, o en un menor precio de venta. El plan de producción surge como una herramienta administrativa enfocada a la correcta gestión del proceso productivo, con miras a la generación de ventajas competitivas a través de la mejora de la eficiencia de todos los actores que sean contemplados en él.
+        p.mb-4  Los decrementos de los beneficios económicos pueden ser clasificados según su destinación; en este sentido se tienen dos grandes categorías que engloban todas las operaciones de la empresa. Las inversiones efectuadas para la creación de los productos se conocen como costo de producción, mientras que las destinadas a la gestión administrativa o comercial son llamadas gastos. 
+        p.mb-4  La segunda diferencia significativa radica en que los costos son cargados a los productos (en el inventario) y no se reconocen como una disminución en la rentabilidad hasta que no se haya generado la venta de tales productos, los gastos, por su parte, se reconocen directamente en el resultado, afectando la utilidad sin importar si los productos se vendan o no.
       .col-lg-5
         figure.mb-5(data-aos="fade-right", data-aos-delay='0')
           img(src='@/assets/curso/t4-i1.png', alt='personas en una fabrica')
@@ -32,7 +33,6 @@
           figcaption.customCaption.mb-2  Figura 12 Flujograma de distribución de egresos
           figure.mb-5
             img(src='@/assets/curso/t4-i3.svg', alt='personas en una fabrica')
-          figcaption <b>Nota.</b> Tomado del libro “Presupuestos bajo normas internacionales de información financiera y taxonomía XBRL”. Rincón y Narváez, (2017).
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Materia prima" :icono="require('@/assets/curso/t4-ic1.svg')")
         .row.align-items-center.px-4
@@ -93,7 +93,7 @@
         p.mb-3  Los costos indirectos, por su parte, corresponden a aquellos que, aunque tienen relación con la producción, son comunes a varios tipos de productos o cuesta asignarlos de forma directa a uno en específico.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cajon.color-acento-botones.p-4(data-aos="flip-down", data-aos-delay='0')
+        .cajon.color-acento-contenido.p-4(data-aos="flip-down", data-aos-delay='0')
           p <b>Uno de los ejemplos más claros es el costo de los servicios públicos,</b> el agua o la luz utilizados para encender y operar la maquinaria: no pueden designarse fácilmente a un solo producto, pues todas las líneas de producción requieren de ellos.    
     
     h3.titulo-tercero Según su uso en procedimientos de planeación
@@ -130,7 +130,7 @@
       .col-lg-8
         figcaption.customCaption.mb-2  Tabla 3  Ejemplo de cálculo de costos por unidad
         .tabla-b.color-acento-contenido.mb-5
-          table
+          table.text-bold
             tr
               th Materia prima:
               td $ 500

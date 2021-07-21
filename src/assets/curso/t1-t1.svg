@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="570" height="301" viewBox="0 0 570 301">
+  <g id="t1-t1" transform="translate(-151 -3414.5)">
+    <rect id="Rectangle_4939" data-name="Rectangle 4939" width="570" height="50" transform="translate(151 3665)" fill="#f6f6f6"/>
+    <rect id="Rectangle_4935" data-name="Rectangle 4935" width="570" height="50" transform="translate(151 3465)" fill="#f6f6f6"/>
+    <rect id="Rectangle_4936" data-name="Rectangle 4936" width="570" height="50" transform="translate(151 3515)" fill="#fff"/>
+    <rect id="Rectangle_4937" data-name="Rectangle 4937" width="570" height="50" transform="translate(151 3565)" fill="#f6f6f6"/>
+    <rect id="Rectangle_4938" data-name="Rectangle 4938" width="570" height="50" transform="translate(151 3615)" fill="#fff"/>
+    <path id="Path_2380" data-name="Path 2380" d="M0,0H570V50H0Z" transform="translate(151 3415)" fill="#f1d54e"/>
+    <text id="Sociedad_por_acciones_simplificada" data-name="Sociedad por acciones simplificada" transform="translate(170 3679)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Sociedad por acciones simplificada</tspan></text>
+    <text id="S.A.S." transform="translate(567 3679)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">S.A.S.</tspan></text>
+    <text id="Sociedad_en_comandita_simple" data-name="Sociedad en comandita simple" transform="translate(170 3479)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Sociedad en comandita simple</tspan></text>
+    <text id="S_en_C" data-name="S en C" transform="translate(567 3479)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">S en C</tspan></text>
+    <text id="Sociedad_de_responsabilidad_limitada" data-name="Sociedad de responsabilidad limitada" transform="translate(170 3579)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Sociedad de responsabilidad limitada</tspan></text>
+    <text id="Ltda." transform="translate(567 3579)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Ltda.</tspan></text>
+    <text id="Sociedad_en_comandita_por_acciones" data-name="Sociedad en comandita por acciones" transform="translate(170 3529)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Sociedad en comandita por acciones</tspan></text>
+    <text id="S.C.A." transform="translate(567 3529)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">S.C.A.</tspan></text>
+    <text id="Sociedad_anónima" data-name="Sociedad anónima" transform="translate(170 3629)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Sociedad anónima</tspan></text>
+    <text id="S.A." transform="translate(567 3629)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">S.A.</tspan></text>
+    <path id="Line_132" data-name="Line 132" d="M0,300.5a.5.5,0,0,1-.5-.5V0A.5.5,0,0,1,0-.5.5.5,0,0,1,.5,0V300A.5.5,0,0,1,0,300.5Z" transform="translate(527 3415)" fill="#12263f"/>
+    <text id="Tipo_Societario" data-name="Tipo Societario" transform="translate(232 3444)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-62.051" y="0">Tipo Societario</tspan></text>
+    <text id="Terminación" transform="translate(618 3444)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-50.95" y="0">Terminación</tspan></text>
+  </g>
+</svg>

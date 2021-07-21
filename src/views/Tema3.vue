@@ -9,7 +9,7 @@
     .row
       .col-lg-7
         p.mb-3 La correcta administración de una empresa requiere de una planeación que la encamine a una serie de metas que planteen sus propietarios y directivos. Existen diversas formas de llevarlo a cabo desde el simple bosquejo verbal de un escenario hipotético, hasta una expresión cuantitativa de las metas delimitadas por áreas de operación. Un presupuesto se asemeja a lo segundo, siendo un documento formal con una estructura definida que permite prever los objetivos cuantitativos a corto y mediano plazo.
-        .cajon.color-acento-botones.p-4.slideInLeft
+        .cajon.color-acento-contenido.p-4.slideInLeft
           p El presupuesto funciona como un elemento de control que permite medir el desempeño de los funcionarios y delimitar las responsabilidades, pero también facilita la integración de procesos entre las sub partes de la empresa. La evaluación posterior permite determinar qué tan distante está la empresa de alcanzar sus metas, para así, implementar cambios de manera más oportuna, reduciendo costos y aumentando la eficiencia.
 
       .col-lg-5
@@ -28,7 +28,7 @@
         p Existen diversas formas de clasificar las empresas, cada una de ellas obedeciendo a un criterio concreto que permite identificar factores coincidentes, y, por lo tanto, abordar definiciones, medidas y estrategias de manera conjunta según las necesidades del usuario de la información. La siguiente figura expone aquellas que gozan de mayor popularidad y resultan más útiles en el entorno, para posteriormente detallar cada una de ellas.
     .row.mb-5.justify-content-center
       .col-lg-10
-        .cajon.color-light-green.p-4
+        .cajon.color-green-light.p-4
           figcaption.customCaption.mb-2  Figura 6 Enfoques de tiempo de la información productiva
           figure.mb-5
             img(src='@/assets/curso/t3-i3.svg', alt='grafico enfoques de tiempo')            
@@ -43,7 +43,7 @@
     .row.mb-5
       .col-lg-7(data-aos="fade-left", data-aos-delay='0')
         p.mb-4  El presupuesto es una herramienta que facilita la administración de la compañía, al permitir establecer un camino de acción enfocado a objetivos concretos. Al ser un sistema proyectivo permite prever situaciones inciertas, posibilitando anticiparse al futuro para ejecutar acciones de naturaleza preventiva. El análisis de indicadores pasados lleva a plantear metas más razonables acordes a la evolución propia del negocio; con esto se hace menos probable la frustración por esperar resultados demasiado ambiciosos. 
-        .cajon.color-acento-botones.p-4
+        .cajon.color-acento-contenido.p-4
           Con un objetivo claro es posible idear estrategias que propendan a esos resultados para posteriormente analizar los esperados con los conseguidos, y evaluar si las estrategias resultaron efectivas. De esta forma, el presupuesto aportará con la consecución de metas y mejoramiento de estrategias para procurar por un crecimiento continuo.
 
       .col-lg-5(data-aos="fade-right", data-aos-delay='25')
@@ -102,7 +102,7 @@
                 img.h200(src='@/assets/curso/t3-i8.svg', alt='imagen decorativa')  
 
         p.mb-5  Si la administración lo considera necesario, podría estimar el impacto del endeudamiento a través de mecanismos de fuentes externas como préstamos bancarios o de fuentes internas como la emisión de acciones, y contrastarlo con los beneficios del robustecimiento de la infraestructura para tomar decisiones de inversión y endeudamiento en el largo plazo. 
-        .cajon.color-acento-botones.p-4
+        .cajon.color-acento-contenido.p-4
           p <b>Por ejemplo,</b> si renovar la maquinaria disminuye los costos de producción, esa mayor utilidad / producto del menor costo podría cubrir los pagos por intereses del endeudamiento financiero.
     
     h3.titulo-tercero Presupuesto financiero
@@ -117,7 +117,7 @@
               figure
                 img.h200(src='@/assets/curso/t3-i9.svg', alt='imagen decorativa')  
 
-        .cajon.color-acento-botones.p-4
+        .cajon.color-acento-contenido.p-4
           p.mb-4 Gran parte de este presupuesto se transmite desde los anteriores, así, el presupuesto de ventas junto con el de producción y costo de ventas determinarán los márgenes de rentabilidad bruta; si se agregan los presupuestos de gastos, se podría alcanzar la utilidad del ejercicio proyectado.
           p Por su parte, los presupuestos de capital y las políticas de recaudo pueden aportar la información suficiente para construir el activo, pasivo y patrimonio de la situación financiera de la empresa.
 
@@ -157,7 +157,7 @@
     .row.mb-5
       .col-lg-7
         p.mb-3(data-aos="fade-up", data-aos-delay='0')  Para el diseño e implementación de un presupuesto es necesario partir desde la consolidación de información de diferentes fuentes para crear lineamientos enfocados en la eficiencia y productividad, posteriormente, elaborar la proyección de todos los rubros que involucran la operación, y finalmente, evaluar los resultados obtenidos al aplicar las políticas que surgieron del análisis.
-        .cajon.color-acento-botones.p-4(data-aos="fade-up", data-aos-delay='50')
+        .cajon.color-acento-contenido.p-4(data-aos="fade-up", data-aos-delay='50')
           p El ciclo se reinicia con la interpretación de la información recolectada donde permanecen las estrategias que dieron resultado, y se modifican las que no. Las tres grandes fases de la proyección presupuestal son las siguientes:
 
       .col-lg-5
@@ -186,7 +186,7 @@
               figure
                 img.h200(src='@/assets/curso/t3-i12-x.svg', alt='imagen decorativa')  
         p.mb-5  En este punto también es importante determinar un cronograma para la finalización de las diversas actividades contenidas en el diseño del presupuesto. Debido a que existen tantas áreas organizacionales involucradas en el plan estratégico, coordinar los tiempos resulta imprescindible para que las tareas se ejecuten de manera fluida y no existan retrasos por incumplimientos.
-         .cajon.color-acento-botones.p-4.mb-5(data-aos="flip-down", data-aos-delay='0')
+         .cajon.color-acento-contenido.p-4.mb-5(data-aos="flip-down", data-aos-delay='0')
             p <b>Un ejemplo sencillo de cómo coordinar tareas variadas es el diagrama de Gantt,</b> una herramienta visual que permite identificar en qué fase tendrá actividades a ejecutar cada área o proceso. Siempre y cuando cada involucrado se responsabilice de cumplir en su horizonte de tiempo, será posible medir la verdadera eficacia de las estrategias implementadas.        
 
         .cajon.color-light-green.p-4.mb-5(data-aos="flip-down", data-aos-delay='0')
@@ -207,7 +207,7 @@
               figure
                 img.h200(src='@/assets/curso/t3-i14.svg', alt='imagen decorativa')  
         p.mb-5  En esta fase se hace la evaluación del sistema implementado a través de una comparativa entre lo presupuestado y lo ejecutado. Es completamente normal que los resultados no alcancen las expectativas por diversos factores, por ejemplo, la entrada de un nuevo competidor al mercado puede afectar los niveles de ventas; o una reforma tributaria puede encarecer las materias primas y, por lo tanto, afectar los costos de producción.
-        .cajon.color-acento-botones.p-4.mb-5
+        .cajon.color-acento-contenido.p-4.mb-5
           p Más allá de esto, se deberá priorizar en la evaluación de aspectos en los que la empresa sí tenga control, como la eficiencia de sus empleados, la calidad del producto a vender o las políticas de recaudo que garanticen la liquidez suficiente para continuar con el ciclo productivo.       
 
         .cajon.color-green-light.p-4.mb-5
@@ -215,7 +215,7 @@
           figure.mb-5
             img.shadow-box(src='@/assets/curso/t4-i15.svg', alt='grafico comparativo de resultados')    
 
-        .cajon.color-acento-botones.p-4.mb-5(data-aos="flip-down", data-aos-delay='0')
+        .cajon.color-acento-contenido.p-4.mb-5(data-aos="flip-down", data-aos-delay='0')
           p Una vez se alcancen las conclusiones de las medidas implementadas, se dará inicio al ciclo de planeación estratégica nuevamente al aplicar nuevas medidas, mientras se mantienen aquellas que dieron resultados positivos; este ciclo podrá repetirse cuantas veces lo requiera la administración con miras a perfeccionar todos los procesos que sean posibles.   
 
 

@@ -182,7 +182,8 @@
               p.text-small.mb-3 En Colombia existen varios tipos de empresas de naturaleza societaria y la forma de identificar su tipo societario es verificando la terminación de su nombre comercial a modo de ejemplo y como las de mayor acogida en el país se presentan las siguientes:
             .col-lg-12
               figcaption.customCaption.mb-2  Tabla 1 Tipos de empresas de naturaleza societaria
-              //-- Aqui va la tabla
+              figure
+                img(src='@/assets/curso/t1-t1.svg', alt='Tabla tipos de empresa')
           .row(numero="2" titulo="Autónomas")
             .col-md-2
               figure
@@ -277,7 +278,7 @@
               .h4 Decreto 2420 de 2015 Normas de contabilidad, de información financiera y de aseguramiento de información
               p.mb-4  Para profundizar en cuanto a los marcos normativos contables aplicables a las empresas que desarrollen su actividad en Colombia, se recomienda consultar el Decreto único reglamentario 2420 de 2015 y sus modificatorios.
               
-              a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+              a.anexo.mb-4.mb-lg-0(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76745" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
@@ -362,7 +363,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cajon.color-acento-botones.p-4
+        .cajon.color-acento-contenido.p-4
           p <b>Una vez son ejecutadas todas las fases descritas,</b> cada empresa podrá plantearse la posibilidad de elaborar un nuevo diagnóstico para determinar si las estrategias formuladas han dado los resultados esperados.
     
     h3.titulo-tercero Objetivos

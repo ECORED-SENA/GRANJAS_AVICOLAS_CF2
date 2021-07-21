@@ -16,7 +16,7 @@
         figure.mb-5
           img(src='@/assets/curso/t2-i1.png', alt='personas en una fabrica')
     
-    .cajon.mb-5.p-4.color-acento-botones
+    .cajon.mb-5.p-4.color-acento-contenido
       p Para aterrizar un poco más el término, resulta apropiada una clasificación que permita identificar los tipos de recursos necesarios en un sistema empresarial. Así pues, se propone y detalla la siguiente clasificación dada su amplia aceptación en el medio: 
     
     .row.mb-5.justify-content-center
