@@ -13,7 +13,7 @@
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
-              .bloque-texto-a__texto.p-4
+              .bloque-texto-a__texto.p-4.shadow-box
                 p.mb-3  La empresa es un agente protagónico en el entorno, no solo contribuye al desarrollo económico con la generación de empleo, sino que también suple las necesidades de la comunidad. Es tal su relevancia que existen incontables normas que la definen, regulan y limitan. El ejemplo más claro se encuentra en el Código de Comercio de 1971 considerado el compendio de normativa comercial más importante en Colombia. Allí se define la empresa como: 
 
 
@@ -27,10 +27,11 @@
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            .h4.mb-0 ARTÍCULO 25. &lt;EMPRESA - CONCEPTO&gt;. Se entenderá por empresa toda actividad económica organizada para la producción, transformación, circulación, administración o custodia de bienes, o para la prestación de servicios. Dicha actividad se realizará a través de uno o más establecimientos de comercio.
-            span  Código de Comercio, 1971, Artículo 25
+            .h4.mb-0.mx-5 ARTÍCULO 25. &lt;EMPRESA - CONCEPTO&gt;. Se entenderá por empresa toda actividad económica organizada para la producción, transformación, circulación, administración o custodia de bienes, o para la prestación de servicios. Dicha actividad se realizará a través de uno o más establecimientos de comercio.
+            span.mx-5  Código de Comercio, 1971, Artículo 25
             i.fas.fa-quote-right
-
+    br
+    br
     #t_1_1.titulo-segundo
       h2 1.1  Tipos de empresa
     .row.mb-5
