@@ -8,24 +8,24 @@
       h1 Presupuesto    
     .row
       .col-lg-7
-        p.mb-3  La correcta administración de una empresa requiere de una planeación que la encamine a una serie de metas que planteen sus propietarios y directivos. Existen diversas formas de llevarlo a cabo desde el simple bosquejo verbal de un escenario hipotético, hasta una expresión cuantitativa de las metas delimitadas por áreas de operación. Un presupuesto se asemeja a lo segundo, siendo un documento formal con una estructura definida que permite prever los objetivos cuantitativos a corto y mediano plazo.
-        .cajon.color-acento-botones.p-4
+        p.mb-3 La correcta administración de una empresa requiere de una planeación que la encamine a una serie de metas que planteen sus propietarios y directivos. Existen diversas formas de llevarlo a cabo desde el simple bosquejo verbal de un escenario hipotético, hasta una expresión cuantitativa de las metas delimitadas por áreas de operación. Un presupuesto se asemeja a lo segundo, siendo un documento formal con una estructura definida que permite prever los objetivos cuantitativos a corto y mediano plazo.
+        .cajon.color-acento-botones.p-4.slideInLeft
           p El presupuesto funciona como un elemento de control que permite medir el desempeño de los funcionarios y delimitar las responsabilidades, pero también facilita la integración de procesos entre las sub partes de la empresa. La evaluación posterior permite determinar qué tan distante está la empresa de alcanzar sus metas, para así, implementar cambios de manera más oportuna, reduciendo costos y aumentando la eficiencia.
 
       .col-lg-5
-        figure.mb-5
+        figure.mb-5.slideInUp
           img(src='@/assets/curso/t3-i1.svg', alt='imagen decorativa') 
 
     #t_3_1.titulo-segundo
       h2 3.1  Técnicos
     .row.mb-5
       .col-lg-3
-        figure.mb-5
+        figure.mb-5(data-aos="fade-left", data-aos-delay='0')
           img(src='@/assets/curso/t3-i2.svg', alt='personas en una fabrica')        
       .col-lg-9
-        .cajon.color-acento-botones.p-4
+        .cajon.color-acento-contenido.p-4.mb-4
           p.mb-3 El presupuesto funciona como un elemento de control que permite medir el desempeño de los funcionarios y delimitar las responsabilidades, pero también facilita la integración de procesos entre las sub partes de la empresa. La evaluación posterior permite determinar qué tan distante está la empresa de alcanzar sus metas, para así, implementar cambios de manera más oportuna, reduciendo costos y aumentando la eficiencia.
-          p Existen diversas formas de clasificar las empresas, cada una de ellas obedeciendo a un criterio concreto que permite identificar factores coincidentes, y, por lo tanto, abordar definiciones, medidas y estrategias de manera conjunta según las necesidades del usuario de la información. La siguiente figura expone aquellas que gozan de mayor popularidad y resultan más útiles en el entorno, para posteriormente detallar cada una de ellas.
+        p Existen diversas formas de clasificar las empresas, cada una de ellas obedeciendo a un criterio concreto que permite identificar factores coincidentes, y, por lo tanto, abordar definiciones, medidas y estrategias de manera conjunta según las necesidades del usuario de la información. La siguiente figura expone aquellas que gozan de mayor popularidad y resultan más útiles en el entorno, para posteriormente detallar cada una de ellas.
     .row.mb-5.justify-content-center
       .col-lg-10
         .cajon.color-light-green.p-4
@@ -41,12 +41,12 @@
     #t_3_2.titulo-segundo
       h2 3.2  Importancia
     .row.mb-5
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left", data-aos-delay='0')
         p.mb-4  El presupuesto es una herramienta que facilita la administración de la compañía, al permitir establecer un camino de acción enfocado a objetivos concretos. Al ser un sistema proyectivo permite prever situaciones inciertas, posibilitando anticiparse al futuro para ejecutar acciones de naturaleza preventiva. El análisis de indicadores pasados lleva a plantear metas más razonables acordes a la evolución propia del negocio; con esto se hace menos probable la frustración por esperar resultados demasiado ambiciosos. 
         .cajon.color-acento-botones.p-4
           Con un objetivo claro es posible idear estrategias que propendan a esos resultados para posteriormente analizar los esperados con los conseguidos, y evaluar si las estrategias resultaron efectivas. De esta forma, el presupuesto aportará con la consecución de metas y mejoramiento de estrategias para procurar por un crecimiento continuo.
 
-      .col-lg-5
+      .col-lg-5(data-aos="fade-right", data-aos-delay='25')
         figure.mb-5
           img(src='@/assets/curso/t3-i4.png', alt='grafico enfoques de tiempo')        
 
@@ -61,13 +61,14 @@
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            .h4.mb-0 Un buen sistema presupuestal debe estar compuesto, por lo menos, por tres tipos de presupuesto. Uno de operación a ejecutar durante el periodo que mida los niveles de producción o adquisición de productos terminados, un sistema de presupuesto de capital centrado en la inversión en activos fijos y uno financiero que mida el impacto económico de las decisiones tomadas a través de estados financieros proyectados.
+            .h4.mb-2 Un buen sistema presupuestal debe estar compuesto, por lo menos, por tres tipos de presupuesto. Uno de operación a ejecutar durante el periodo que mida los niveles de producción o adquisición de productos terminados, un sistema de presupuesto de capital centrado en la inversión en activos fijos y uno financiero que mida el impacto económico de las decisiones tomadas a través de estados financieros proyectados.
+            p Palabras de <b>Burbano</b> (2006)
             i.fas.fa-quote-right
     
     h3.titulo-tercero Presupuestos de operación
     .row.justify-content-center.mb-5
       .col-lg-10
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Presupuesto de ventas")
             .col-md-3.mb-4.mb-md-0
               figure.mb-5
@@ -91,7 +92,7 @@
     h3.titulo-tercero Presupuesto de capital
     .row.mb-5.justify-content-center
       .col-lg-10
-        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(data-aos="fade-up", data-aos-delay='0') 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
@@ -107,7 +108,7 @@
     h3.titulo-tercero Presupuesto financiero
     .row.mb-5.justify-content-center
       .col-lg-10
-        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(data-aos="fade-up", data-aos-delay='0') 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
@@ -128,21 +129,23 @@
 
     #t_3_4.titulo-segundo
       h2 3.4  Presupuesto inicial de la empresa
-    PasosA.color-acento-botones.mb-5(tipo="l")
-      div
-        p Los ciclos operativos de las empresas varían en cuanto a extensión dependiendo del tipo de la actividad que se realice. 
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        PasosA.color-acento-contenido(tipo="l")
+          div
+            p Los ciclos operativos de las empresas varían en cuanto a extensión dependiendo del tipo de la actividad que se realice. 
 
-      div
-        p Una empresa del sector agrícola puede tener un ciclo de 4 meses si eso es lo que tarda recolectar los frutos de una cosecha, pero otra del mismo sector puede requerir de 8 meses; esto implica que la variedad de extensiones de tiempo requeridas sea tan diversa que complique la homologación o comparativa entre diferentes organizaciones.
-      
-      div
-        p Para temas fiscales y normativos en general, el Estado suele estandarizar estos periodos de tiempo en periodos de un año, situación que ha llevado al mundo empresarial a adoptar este mismo sistema más allá de las particularidades de cada sistema empresarial.
-      div
-        p El presupuesto inicial entra en esta homogeneización de periodos dado que es el formulado por cada empresa al inicio del año, y que actúa como punto de partida para la operación de todos los sistemas involucrados en el funcionamiento de la compañía. 
-      div
-        p Así, por regla general, este comprende la estimación de todas las operaciones a efectuar entre el 1 de enero y el 31 de diciembre de cada año. 
-      div
-        p Por lo tanto, este presupuesto es considerado uno de los elementos más importantes en la planeación dado que involucra tanto las actividades operativas como aquellas ocasionales que espera se efectúen en el transcurso del año. 
+          div
+            p Una empresa del sector agrícola puede tener un ciclo de 4 meses si eso es lo que tarda recolectar los frutos de una cosecha, pero otra del mismo sector puede requerir de 8 meses; esto implica que la variedad de extensiones de tiempo requeridas sea tan diversa que complique la homologación o comparativa entre diferentes organizaciones.
+          
+          div
+            p Para temas fiscales y normativos en general, el Estado suele estandarizar estos periodos de tiempo en periodos de un año, situación que ha llevado al mundo empresarial a adoptar este mismo sistema más allá de las particularidades de cada sistema empresarial.
+          div
+            p El presupuesto inicial entra en esta homogeneización de periodos dado que es el formulado por cada empresa al inicio del año, y que actúa como punto de partida para la operación de todos los sistemas involucrados en el funcionamiento de la compañía. 
+          div
+            p Así, por regla general, este comprende la estimación de todas las operaciones a efectuar entre el 1 de enero y el 31 de diciembre de cada año. 
+          div
+            p Por lo tanto, este presupuesto es considerado uno de los elementos más importantes en la planeación dado que involucra tanto las actividades operativas como aquellas ocasionales que espera se efectúen en el transcurso del año. 
     
     Separador
     br
@@ -153,19 +156,19 @@
       h2 3.5  Cómo elaborar un presupuesto
     .row.mb-5
       .col-lg-7
-        p.mb-3  Para el diseño e implementación de un presupuesto es necesario partir desde la consolidación de información de diferentes fuentes para crear lineamientos enfocados en la eficiencia y productividad, posteriormente, elaborar la proyección de todos los rubros que involucran la operación, y finalmente, evaluar los resultados obtenidos al aplicar las políticas que surgieron del análisis.
-        .cajon.color-acento-botones.p-4
+        p.mb-3(data-aos="fade-up", data-aos-delay='0')  Para el diseño e implementación de un presupuesto es necesario partir desde la consolidación de información de diferentes fuentes para crear lineamientos enfocados en la eficiencia y productividad, posteriormente, elaborar la proyección de todos los rubros que involucran la operación, y finalmente, evaluar los resultados obtenidos al aplicar las políticas que surgieron del análisis.
+        .cajon.color-acento-botones.p-4(data-aos="fade-up", data-aos-delay='50')
           p El ciclo se reinicia con la interpretación de la información recolectada donde permanecen las estrategias que dieron resultado, y se modifican las que no. Las tres grandes fases de la proyección presupuestal son las siguientes:
 
       .col-lg-5
-        figure
+        figure(data-aos="fade-right", data-aos-delay='0')
           img(src='@/assets/curso/t3-i10.png', alt='imagen decorativa')  
     h3.titulo-tercero Planeación estratégica
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    .cajon.color-light-green.p-4.mb-5
+    .cajon.color-light-green.p-4.mb-5(data-aos="flip-down", data-aos-delay='0')
       figcaption.customCaption.mb-2  Figura 8 Componentes de la planeación estratégica
       figure.mb-5
         img(src='@/assets/curso/t3-i11.svg', alt='grafico enfoques de tiempo')    
@@ -181,12 +184,12 @@
                 p Una vez se tienen claras las estrategias a gran escala se deben aterrizar las medidas a acciones específicas, destinando una asignación de recursos detallada para cada actividad. Todas las partidas serán consolidadas en los tipos presupuestales descritos previamente, y serán compartidos a las áreas involucradas de tal manera que exista un flujo de información oportuno y suficiente para que cada empleado pueda aportar desde su posición en la ejecución de sus nuevas tareas.
             .col-lg-4.mb-4.mb-lg-0
               figure
-                img.h200(src='@/assets/curso/t3-i12.svg', alt='imagen decorativa')  
+                img.h200(src='@/assets/curso/t3-i12-x.svg', alt='imagen decorativa')  
         p.mb-5  En este punto también es importante determinar un cronograma para la finalización de las diversas actividades contenidas en el diseño del presupuesto. Debido a que existen tantas áreas organizacionales involucradas en el plan estratégico, coordinar los tiempos resulta imprescindible para que las tareas se ejecuten de manera fluida y no existan retrasos por incumplimientos.
-         .cajon.color-acento-botones.p-4.mb-5
+         .cajon.color-acento-botones.p-4.mb-5(data-aos="flip-down", data-aos-delay='0')
             p <b>Un ejemplo sencillo de cómo coordinar tareas variadas es el diagrama de Gantt,</b> una herramienta visual que permite identificar en qué fase tendrá actividades a ejecutar cada área o proceso. Siempre y cuando cada involucrado se responsabilice de cumplir en su horizonte de tiempo, será posible medir la verdadera eficacia de las estrategias implementadas.        
 
-        .cajon.color-light-green.p-4.mb-5
+        .cajon.color-light-green.p-4.mb-5(data-aos="flip-down", data-aos-delay='0')
           figcaption.customCaption.mb-2  Figura 9 Diagrama de tiempos
           figure.mb-5
             img(src='@/assets/curso/t3-i11.svg', alt='grafico enfoques de tiempo')    
@@ -195,7 +198,7 @@
     h3.titulo-tercero Control presupuestal
     .row.mb-5.justify-content-center
       .col-lg-10
-        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(data-aos="fade-up", data-aos-delay='0') 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
@@ -207,12 +210,12 @@
         .cajon.color-acento-botones.p-4.mb-5
           p Más allá de esto, se deberá priorizar en la evaluación de aspectos en los que la empresa sí tenga control, como la eficiencia de sus empleados, la calidad del producto a vender o las políticas de recaudo que garanticen la liquidez suficiente para continuar con el ciclo productivo.       
 
-        .cajon.color-light-green.p-4.mb-5
+        .cajon.color-green-light.p-4.mb-5
           figcaption.customCaption.mb-2  Figura 10 Comparativa presupuestado - ejecutado
           figure.mb-5
-            img(src='@/assets/curso/t4-i15.svg', alt='grafico comparativo de resultados')    
+            img.shadow-box(src='@/assets/curso/t4-i15.svg', alt='grafico comparativo de resultados')    
 
-        .cajon.color-acento-botones.p-4.mb-5
+        .cajon.color-acento-botones.p-4.mb-5(data-aos="flip-down", data-aos-delay='0')
           p Una vez se alcancen las conclusiones de las medidas implementadas, se dará inicio al ciclo de planeación estratégica nuevamente al aplicar nuevas medidas, mientras se mantienen aquellas que dieron resultados positivos; este ciclo podrá repetirse cuantas veces lo requiera la administración con miras a perfeccionar todos los procesos que sean posibles.   
 
 

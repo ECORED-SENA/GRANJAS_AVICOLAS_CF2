@@ -8,7 +8,7 @@
       h1 Empresa
     p.mb-5 Comprender el concepto de empresa implica visualizarla como un organismo compuesto por diversos sistemas que trabajan de manera conjunta y, de preferencia, armónica y así operar tras un objetivo concreto. Su finalidad suele ser una sola, la generación de valor; un valor que puede medirse como excedentes financieros vistos como utilidades o reinversión, o como aportación a la sociedad. 
 
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center.slideInUp
       .col-lg-10
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
@@ -25,7 +25,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .bloque-texto-b.color-secundario.p-4
-          .bloque-texto-b__texto
+          .bloque-texto-b__texto(data-aos="fade-up", data-aos-delay='0')
             i.fas.fa-quote-left
             .h4.mb-0.mx-5 ARTÍCULO 25. &lt;EMPRESA - CONCEPTO&gt;. Se entenderá por empresa toda actividad económica organizada para la producción, transformación, circulación, administración o custodia de bienes, o para la prestación de servicios. Dicha actividad se realizará a través de uno o más establecimientos de comercio.
             span.mx-5  Código de Comercio, 1971, Artículo 25
@@ -36,9 +36,9 @@
       h2 1.1  Tipos de empresa
     .row.mb-5
       .col-lg-2
-        figure
+        figure(data-aos="fade-left", data-aos-delay='0')
           img(src='@/assets/curso/t1-i2.svg', alt='imagen decorativa')  
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right", data-aos-delay='50')
         p Existen diversas formas de clasificar las empresas, cada una de ellas obedeciendo a un criterio concreto que permite identificar factores coincidentes, y, por lo tanto, abordar definiciones, medidas y estrategias de manera conjunta según las necesidades del usuario de la información. La siguiente figura expone aquellas que gozan de mayor popularidad y resultan más útiles en el entorno, para posteriormente detallar cada una de ellas.
     
     h3.titulo-tercero Tipos de empresa
@@ -224,7 +224,7 @@
 
     .cajon.color-green-light.p-4.mb-5
        figcaption.customCaption.mb-2  <b>Figura</b> 1 Tipos de empresa     
-       figure
+       figure(data-aos="fade-up")
         img(src='@/assets/curso/t1-i15.svg', alt='Tabla con tipos de empresa')     
 
 
@@ -235,12 +235,18 @@
       h2 1.2  Recursos y transacciones contables de la empresa
     .row.mb-5
       .col-lg-7
+        .bloque-texto-b.color-secundario.p-4.mb-5
+          .bloque-texto-b__texto(data-aos="fade-up", data-aos-delay='0')
+            i.fas.fa-quote-left
+            p.mb-0.mx-5 Las empresas funcionan como sistemas abiertos, toman del exterior recursos como materias primas o capital, conocidas como inputs o entradas, por ejemplo, comprando barriles de leche, que se transforman, y reintegran al entorno en forma de outputs o salidas, en este caso en particular, en forma de queso o mantequilla.
+            span.mx-5  Código de Comercio, 1971, Artículo 25
+            i.fas.fa-quote-right
 
-        p.mb-3  Para que estos sistemas evolucionen deben existir métodos para retroalimentar los procesos existentes o la creación de nuevos cuando sea necesario. Las estrategias de mejoramiento continuo cumplen con esta premisa pues están enfocadas en maximizar la rentabilidad, pero para ello requieren el compendio de toda la información disponible para refinar cada uno de los elementos involucrados. 
+        p.mb-3 Para que estos sistemas evolucionen deben existir métodos para retroalimentar los procesos existentes o la creación de nuevos cuando sea necesario. Las estrategias de mejoramiento continuo cumplen con esta premisa pues están enfocadas en maximizar la rentabilidad, pero para ello requieren el compendio de toda la información disponible para refinar cada uno de los elementos involucrados. 
 
       .col-lg-5
-        figure
-        img(src='@/assets/curso/t1-i16.svg', alt='Tabla con tipos de empresa') 
+        figure(data-aos="fade-right", data-aos-delay='0')
+          img(src='@/assets/curso/t1-i16.svg', alt='Tabla con tipos de empresa') 
 
     .row.mb-5.justify-content-center
       .col-lg-10
@@ -249,17 +255,16 @@
           
     .row.mb-5.justify-content-center
       .col-lg-8
-        .cajon.color-green-light.p-4.mb-5
+        .cajon.color-green-light.p-4.mb-5(data-aos="fade-down", data-aos-delay='50')
           figcaption.customCaption.mb-2  <b>Figura 2</b> Empresas como sistema     
           figure
             img(src='@/assets/curso/t1-i17.svg', alt='Tabla con tipos de empresa')     
           figcaption <b>Nota.</b> Tomado de <b>“Todo sobre la gestión de la empresa”.</b> Planas, (2018).
     
-    p.mb-5
-      La información contable y financiera funciona como un registro de la evolución de una empresa en un periodo de tiempo determinado. Su función principal es apoyar la toma de decisiones de agentes internos, como los directivos o inversores, o agentes externos como proveedores, acreedores o clientes. Para que la información sea útil para un amplio grupo de terceros es importante que las reglas para su registro y revelación estén estandarizadas. 
+    p.mb-5  La información contable y financiera funciona como un registro de la evolución de una empresa en un periodo de tiempo determinado. Su función principal es apoyar la toma de decisiones de agentes internos, como los directivos o inversores, o agentes externos como proveedores, acreedores o clientes. Para que la información sea útil para un amplio grupo de terceros es importante que las reglas para su registro y revelación estén estandarizadas. 
     .row.mb-5.justify-content-center
       .col-lg-8.mb-5
-        .cajon.color-acento-contenido.p-4.mb-5  
+        .cajon.color-acento-contenido.p-4.mb-5(data-aos="fade-up", data-aos-delay='0')  
           p <b>En Colombia, la Ley 1314 de 2009 fundó las bases para la actualización del marco normativo contable a través de la convergencia a un sistema internacional de amplia aceptación.</b> En la actualidad, las empresas constituidas en Colombia deben llevar el registro de la información financiera aplicando los estándares internacionales emitidos por la <b>Junta de Normas Internacionales de Contabilidad (IASB por sus siglas en inglés) conocidos en español como las Normas Internacionales de Información Financiera – NIIF.</b>  
 
       .col-lg-8.mb-5
@@ -290,7 +295,7 @@
     
     .row.justify-content-center.mb-5
       .col-lg-8.mb-5
-        .cajon.color-green-light.p-4
+        .cajon.color-green-light.p-4(data-aos="fade-up", data-aos-delay='0')
           figcaption.customCaption.mb-2  <b>Figura 3</b> Los estados financieros y la toma de decisiones empresariales    
           figure
             img(src='@/assets/curso/t1-i20.svg', alt='Tabla con tipos de empresa')  
@@ -378,10 +383,10 @@
     h3.titulo-tercero Modelos
     .row.mb-5.justify-content-center
       .col-lg-10.mb-5
-        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(data-aos="fade-up", data-aos-delay='0') 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
-              .bloque-texto-a__texto.p-4
+              .bloque-texto-a__texto.p-4.shadow-box
                 p.mb-3  El diagnóstico empresarial como herramienta puede ser adecuado según las necesidades de cada evaluador, en este sentido, se puede diseñar un sistema que cubra todos los aspectos que se consideren relevantes sin entrar a aplicar ningún modelo de terceros. Siempre y cuando se vele por una recolección suficiente de información e interpretación posterior objetiva, es completamente viable la ejecución de un diagnóstico a la medida. 
             .col-lg-4.mb-4.mb-lg-0
               figure
@@ -422,7 +427,7 @@
         .row.justify-content-center.mb-4.p-5.text-center
           .col-6
             figure.mb-5(data-aos="flip-right", data-aos-delay='100')
-              img.h180(src='@/assets/curso/t1-i28.svg', alt='imagen decorativa')
+              img.h180(src='@/assets/curso/t1-i29.svg', alt='imagen decorativa')
           
           .h2 Integración
           p Es la fuerza que busca mantener las sub partes integradas, permitiendo su funcionamiento como una sola entidad.
@@ -433,11 +438,11 @@
         .cajon.color-acento-contenido.p-4
           p Todas las operaciones organizacionales deberán enfocarse partiendo del entorno sobre el que se desarrolla la actividad empresarial, así, el diseño de la estructura operativa será más mecánico o flexible, dependiendo de la complejidad del ambiente. Los autores del modelo lograron representar su esquema general tal y como se presenta en la siguiente figura:
     .row.justify-content-center.mb-5
-      .col-lg-10     
-          figcaption.customCaption.mb-2  <b>Figura 4</b> Modelo de funcionamiento organizacional
-          figure.mb-3
-            img(src='@/assets/curso/t1-i30.svg', alt='Tabla con tipos de empresa')  
-          figcaption <b>Nota.</b> Tomado de <b>“Modelo de funcionamiento organizacional”.</b>Lawrence y Lorsch, (1969). 
+      .col-lg-10
+        figcaption.customCaption.mb-2  <b>Figura 4</b> Modelo de funcionamiento organizacional
+        figure.mb-3
+          img(src='@/assets/curso/t1-i30.svg', alt='Tabla con tipos de empresa')  
+        figcaption <b>Nota.</b> Tomado de <b>“Modelo de funcionamiento organizacional”.</b>Lawrence y Lorsch, (1969). 
 
     .row.justify-content-center.mb-5
       .col-lg-10.mb-5
@@ -445,7 +450,7 @@
         p Opera bajo una premisa similar al modelo anterior, ya que considera como elementos más relevantes de la organización la división del trabajo y la coordinación de las tareas para funcionar de manera armoniosa. Según su autor, una empresa puede dividirse en cinco categorías:
 
       .col-lg-10
-        .cajon.color-green-light.p-4
+        .cajon.color-green-light.p-4(data-aos="fade-up", data-aos-delay='0')
           figcaption.customCaption.mb-2  <b>Figura 5</b> Estructura Orgánica de Mintzberg     
           figure
             img(src='@/assets/curso/t1-i31.svg', alt=' Estructura Orgánica de Mintzberg')     
@@ -494,24 +499,12 @@
                 
 
 
-
-
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    Muestras
   
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
   data: () => ({
     mostrarIndicador: true,
     modal1: false,

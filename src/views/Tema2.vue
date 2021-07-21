@@ -8,11 +8,11 @@
       h1 Disponibilidad de recursos
     
     .row.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left", data-aos-delay='0')
         p.mb-3  La empresa como sistema que funciona dentro de un entorno determinado requiere de interacciones con agentes externos que actúan desde diferentes fases del ciclo operativo. Al inicio de este, los proveedores y acreedores suministran los insumos necesarios para el desarrollo del objeto social, y al final, son los clientes quienes demandan la entrega del bien o servicio. La contraprestación recibida por estos últimos posibilita el inicio de un nuevo ciclo que perpetúe la generación de valor.
         p.mb-3  Del apartado anterior se infiere que los recursos son el medio a través del cual la empresa ejecuta la estrategia para la que fue concebida; en este sentido, la concepción del término “recursos” es tan amplia que alberga elementos de cualquier naturaleza. 
 
-      .col-lg-4
+      .col-lg-4(data-aos="fade-right", data-aos-delay='50')
         figure.mb-5
           img(src='@/assets/curso/t2-i1.png', alt='personas en una fabrica')
     
@@ -21,7 +21,7 @@
     
     .row.mb-5.justify-content-center
       .col-lg-8
-        .cajon.color-light-green.p-4
+        .cajon.color-light-green.p-4(data-aos="fade-up", data-aos-delay='0')
           figcaption.customCaption.mb-2  Figura 6 Recursos de una empresa
           figure.mb-5
             img(src='@/assets/curso/t2-i2.svg', alt='ilustracion de recursos de una empresa')            
@@ -34,7 +34,7 @@
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
-              .bloque-texto-a__texto.p-4
+              .bloque-texto-a__texto.p-4.shadow-box
                 p.mb-3  La empresa es una organización de carácter social y para llevar a cabo su función requiere de la interacción humana, ya sea entre trabajadores y directivos, o vendedores y clientes. El factor humano es inherente al sistema organizacional, y su relevancia es tal, que una buena gestión del talento humano puede potenciar las ventajas competitivas y mejorar enormemente los rendimientos financieros de cualquier compañía.
                 p Existen tres grupos para clasificar el elemento humano:
 
@@ -45,19 +45,19 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row(titulo="Propietarios")
         .col-md-8
-          p.mb-3  Son quienes aportan el capital, es decir, los dueños de la compañía y quienes usualmente toman las decisiones a gran escala como el objeto social de la compañía, el tipo societario, la aprobación de la información financiera o la destinación de los excedentes. Usualmente ejercen su posición a través de la junta de socios o asamblea de accionistas; sin embargo, cuando la empresa es pequeña, los propietarios suelen ejercer el control de manera directa, por lo que son directivos al mismo tiempo.
+          p.mb-3.mx-5  Son quienes aportan el capital, es decir, los dueños de la compañía y quienes usualmente toman las decisiones a gran escala como el objeto social de la compañía, el tipo societario, la aprobación de la información financiera o la destinación de los excedentes. Usualmente ejercen su posición a través de la junta de socios o asamblea de accionistas; sin embargo, cuando la empresa es pequeña, los propietarios suelen ejercer el control de manera directa, por lo que son directivos al mismo tiempo.
         .col-md-3.mb-4.mb-md-0
           figure.mb-5
             img.h110(src='@/assets/curso/t2-i4.svg', alt='imagen decorativa')          
       .row(titulo="Directivos")
         .col-md-8
-          p.mb-3  Son designados para actuar en representación de los propietarios y son los encargados de llevar a cabo el correcto desarrollo operativo. Ejemplo de estos son la junta directiva y los gerentes generales y de áreas específicas. Toman decisiones de nivel estratégico y dirigen la compañía en función de los lineamientos generales establecidos por los propietarios.
+          p.mb-3.mx-5  Son designados para actuar en representación de los propietarios y son los encargados de llevar a cabo el correcto desarrollo operativo. Ejemplo de estos son la junta directiva y los gerentes generales y de áreas específicas. Toman decisiones de nivel estratégico y dirigen la compañía en función de los lineamientos generales establecidos por los propietarios.
         .col-md-3.mb-4.mb-md-0
           figure.mb-5
             img.h110(src='@/assets/curso/t2-i5.svg', alt='imagen decorativa')          
       .row(titulo="Trabajadores")
         .col-md-8
-          p.mb-3  Llevan a cabo las labores operativas, son nombrados por los directivos o sus designados, y se dedican a ejecutar las tareas que estos estos les encargan. En esta categoría encontramos los operarios, jefes de área y los supervisores.
+          p.mb-3.mx-5  Llevan a cabo las labores operativas, son nombrados por los directivos o sus designados, y se dedican a ejecutar las tareas que estos estos les encargan. En esta categoría encontramos los operarios, jefes de área y los supervisores.
         .col-md-3.mb-4.mb-md-0
           figure.mb-5
             img.h110(src='@/assets/curso/t2-i6.svg', alt='imagen decorativa')          
@@ -94,7 +94,9 @@
     #t_2_3.titulo-segundo
       h2 2.3  Técnicos
     p.mb-3  Se refiere a los procedimientos y conocimientos propios de la actividad que desarrolla la empresa. Se encuentran asociados a cualquier proceso, ya sea administrativo, de producción o comercial. Ejemplos de estas categorías son los siguientes:
-    LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")    
+    .row.justify-content-center
+      .col-lg-10
+        LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")    
 
 
     Separador
@@ -104,8 +106,8 @@
       h2 2.4  Financieros
 
     p.mb-5  Hace referencia al capital dispuesto en dinero o en títulos valores de alta liquidez. La obtención de capital se hace a través de diversas fuentes, y su correcta administración garantizará que todos los demás elementos puedan funcionar de manera fluida y permanente. Los sistemas de obtención de capital son los siguientes:
-    TabsA.color-acento-botones.mb-5
-      .tarjeta.color-acento-botones--borde.p-5(titulo="Fuentes operativas")
+    TabsA.color-acento-contenido.mb-5
+      .tarjeta.color-secundario.p-5(titulo="Fuentes operativas")
         .row
           .col-lg-4
             figure.mb-5
@@ -115,7 +117,7 @@
             p Venta de los bienes y servicios producidos u ofertados por la empresa, esto incluye el recaudo de la cartera y las ventas de contado. Es la fuente de capital más importante dado que da cumplimiento a la concepción con la cual fue creada la empresa.
 
       
-      .tarjeta.color-acento-botones--borde.p-5(titulo="Fuentes de financiación")
+      .tarjeta.color-secundario.p-5(titulo="Fuentes de financiación")
         .row
           .col-lg-4
             figure.mb-5
@@ -124,7 +126,7 @@
             h3 Fuentes de financiación
             p Corresponde a los dineros recibidos por parte del sector financiero o los acreedores privados. Son dineros que se reciben con una promesa de ser retornados en un plazo determinado, asumiendo unos costos por intereses. Es un sistema alternativo de consecución de capital que puede provenir de fuentes internas como lo son los aportes de capital de los propietarios, o de fuentes externas como los créditos de libre inversión que ofrecen los bancos.
 
-      .tarjeta.color-acento-botones--borde.p-5(titulo="Fuentes de inversión")
+      .tarjeta.color-secundario.p-5(titulo="Fuentes de inversión")
         .row
           .col-lg-4
             figure.mb-5

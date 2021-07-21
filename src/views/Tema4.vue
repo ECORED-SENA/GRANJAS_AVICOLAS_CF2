@@ -8,15 +8,15 @@
         span 4
       h1 Costos de producción    
     .row.mb-5
-      .col-lg-7  
+      .col-lg-7(data-aos="fade-left", data-aos-delay='0')  
         p.mb-5  El proceso productivo involucra todas las áreas que tienen relación directa con la elaboración del producto o la prestación del servicio. La correcta gestión de este aspecto permite la optimización de los costos, lo que puede traducirse en una mayor rentabilidad, o en un menor precio de venta. El plan de producción surge como una herramienta administrativa enfocada a la correcta gestión del proceso productivo, con miras a la generación de ventajas competitivas a través de la mejora de la eficiencia de todos los actores que sean contemplados en él.
       .col-lg-5
-        figure.mb-5
+        figure.mb-5(data-aos="fade-right", data-aos-delay='0')
           img(src='@/assets/curso/t4-i1.png', alt='personas en una fabrica')
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cajon.color-light-green.p-4
+        .cajon.color-green-light.p-4
           figcaption.customCaption.mb-2  Figura 11 Flujograma de distribución de egresos
           figure.mb-5
             img(src='@/assets/curso/t4-i2.svg', alt='personas en una fabrica')
@@ -72,7 +72,7 @@
     h3.titulo-tercero Según su variabilidad en relación con la producción
     .row.justify-content-center.mb-5
       .col-lg-10
-        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(data-aos="fade-up", data-aos-delay='0') 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
@@ -84,16 +84,16 @@
 
     h3.titulo-tercero Según su relación con el producto
     .row.justify-content-center.mb-5
-      .col-lg-3
+      .col-lg-3(data-aos="fade-left", data-aos-delay='0') 
         figure
           img(src='@/assets/curso/t4-i8.svg', alt='imagen decorativa') 
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right", data-aos-delay='25') 
         p.mb-3  La regla aplicable a este sistema lleva a determinar si existe o no una relación directa entre el insumo y la generación del producto terminado. 
         p.mb-3  Se consideran directos los costos asignables a un producto en específico como lo sería la materia prima objeto de transformación o el salario pagado al operario que trabaja en una línea de producción en concreto. 
         p.mb-3  Los costos indirectos, por su parte, corresponden a aquellos que, aunque tienen relación con la producción, son comunes a varios tipos de productos o cuesta asignarlos de forma directa a uno en específico.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cajon.color-acento-botones.p-4
+        .cajon.color-acento-botones.p-4(data-aos="flip-down", data-aos-delay='0')
           p <b>Uno de los ejemplos más claros es el costo de los servicios públicos,</b> el agua o la luz utilizados para encender y operar la maquinaria: no pueden designarse fácilmente a un solo producto, pues todas las líneas de producción requieren de ellos.    
     
     h3.titulo-tercero Según su uso en procedimientos de planeación
@@ -105,11 +105,11 @@
         p.mb-3  Este criterio toma especial relevancia a la hora de la planeación estratégica y la proyección presupuestal. Bajo este sistema están los costos estimados que obedecen a la observación y análisis de su comportamiento y no son tan precisos, pues su cálculo no requiere procedimientos tan rigurosos. 
         p.mb-3  En segundo lugar, están los costos estándar, cuya determinación se hace a través de sistemas de costeo que ofrecen una alta precisión; demandan mucho tiempo para su cálculo, pero tienen un margen de error mucho más reducido. Debido a lo exigente que es el proceso de determinación del costeo estándar, suele ser aplicado a aquellas líneas de producción de gran volumen y relevancia. 
     .row.justify-content-center.mb-5
-      .col-lg-10
-        .cajon.color-acento-botones.p-4
+      .col-lg-10(data-aos="fade-up", data-aos-delay='25')
+        .cajon.color-green-light.p-4
           figcaption.customCaption.mb-2 Figura 13 Clasificación de los costos de producción
           figure
-            img(src='@/assets/curso/t4-i10.jpg', alt='imagen decorativa')   
+            img(src='@/assets/curso/t4-ix1.svg', alt='Tabla de clasificación')   
     
 
 
@@ -119,7 +119,7 @@
     br
     #t_4_3.titulo-segundo
       h2 4.3  Cálculo
-    .row.mb-5
+    .row.mb-5(data-aos="fade-up", data-aos-delay='0')
       .col-lg-7
         p.mb-3  Determinar el costo de producción de un producto puede ser una tarea básica o muy compleja dependiendo las particularidades del proceso. El elemento que suele traer mayores dificultades para su medición es el de costos indirectos, puesto que, al no existir una relación directa con la producción, cuesta trabajo atribuir la proporción del mismo que corresponde a cada línea productiva. Si la empresa produce un solo tipo de producto, se simplifica mucho la labor. En este sentido, una sumatoria de todos los elementos del costo, dividido en el número de unidades producidas brindará el costo por unidad.
       .col-lg-5
