@@ -68,8 +68,8 @@
     #t_2_2.titulo-segundo
       h2 2.2  Materiales
     p.mb-5  Los elementos materiales comprenden aquellos bienes tangibles necesarios para desarrollar el objeto social de la empresa. Pueden clasificarse según el tiempo que se espera permanezcan en la organización así:
-    .tarjeta--container.row.mb-5
-      .col-lg-6.tarjeta.c1.p-5
+    .tarjeta--container.row.mb-5.justify-content-center
+      .col-lg-5.tarjeta.c1.p-5
         .row.justify-content-center.mb-4.p-5.text-center
           .col-6
             figure.mb-5(data-aos="flip-left", data-aos-delay='0')
@@ -78,7 +78,7 @@
           .h2 Corrientes
           p Aquellos de los que se espera disponer en periodos inferiores a un año, tal es el caso de las materias primas que serán usadas en el proceso de producción o los productos terminados dispuestos para la venta.
 
-      .col-lg-6.tarjeta.c2.p-5
+      .col-lg-5.tarjeta.c2.p-5
         .row.justify-content-center.mb-4.p-5.text-center
           .col-6
             figure.mb-5(data-aos="flip-right", data-aos-delay='100')

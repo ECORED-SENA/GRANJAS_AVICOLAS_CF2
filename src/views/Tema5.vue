@@ -8,11 +8,11 @@
       h1 Plan de producción    
     .row.mb-5
       .col-lg-2
-        figure.mb-5
+        figure.mb-5(data-aos="fade-left", data-aos-delay='0')
           img(src='@/assets/curso/t5-i0.svg', alt='imagen decorativa')
 
       .col-lg-10  
-        p.mb-5  El proceso productivo involucra todas las áreas que tienen relación directa con la elaboración del producto o la prestación del servicio. La correcta gestión de este aspecto permite la optimización de los costos, lo que puede traducirse en una mayor rentabilidad, o en un menor precio de venta. El plan de producción surge como una herramienta administrativa enfocada a la correcta gestión del proceso productivo, con miras a la generación de ventajas competitivas a través de la mejora de la eficiencia de todos los actores que sean contemplados en él.
+        p.mb-5(data-aos="fade-right", data-aos-delay='50')  El proceso productivo involucra todas las áreas que tienen relación directa con la elaboración del producto o la prestación del servicio. La correcta gestión de este aspecto permite la optimización de los costos, lo que puede traducirse en una mayor rentabilidad, o en un menor precio de venta. El plan de producción surge como una herramienta administrativa enfocada a la correcta gestión del proceso productivo, con miras a la generación de ventajas competitivas a través de la mejora de la eficiencia de todos los actores que sean contemplados en él.
 
 
 
@@ -21,10 +21,23 @@
     #t_5_1.titulo-segundo
       h2 5.1  Características
     p.mb-5  El plan de producción se concentra en la elaboración de los productos o la prestación de los servicios ofrecidos por la empresa, los factores que los caracterizan son los siguientes:
-    .row
+    .row.mb-5.wrapCards
       .col-lg-4
+        .tarjeta.c2.p-5.h-100(data-aos="fade-up", data-aos-delay='0')
+          figure.mb-5(data-aos="flip-left", data-aos-delay='0')
+            img.h180(src='@/assets/curso/t5-ic1.svg', alt='Imagen Decorativa')
+          p Debe ser elaborado por un jefe de producción con el conocimiento técnico necesario para evaluar la mayor cantidad de variables respecto a niveles de materia prima y horas de trabajo. A mayor número de escenarios contemplados, mayor probabilidad de identificar las metodologías más eficientes.
       .col-lg-4
+        .tarjeta.c1.p-5.h-100(data-aos="fade-up", data-aos-delay='50')
+          figure.mb-5(data-aos="flip-left", data-aos-delay='0')
+            img.h180(src='@/assets/curso/t5-ic2.svg', alt='Imagen Decorativa')
+          p Es precedido por una planeación estratégica, dado que debe estar acorde a los planteamientos ordenados por el área directiva de la compañía. La planeación estratégica determina, por ejemplo, el tipo de productos a fabricar, información que toma el plan de producción como base para determinar los requerimientos de materia prima y personal.            
+
       .col-lg-4
+        .tarjeta.c2.p-5(data-aos="fade-up", data-aos-delay='0')
+          figure.mb-5(data-aos="flip-right", data-aos-delay='100')
+            img.h180(src='@/assets/curso/t5-ic3.svg', alt='imagen decorativa')
+          p Se nutre de los presupuestos de otras áreas. Tal es el caso del presupuesto de ventas, que aporta la información asociada a la demanda, y que funciona como punto de partida para establecer las metas de producción. También se alinea con los presupuestos de capital, ya que la cantidad de recursos disponibles puede afectar las políticas de compra y almacenaje de inventarios.        
 
 
 
@@ -35,7 +48,7 @@
     #t_5_2.titulo-segundo
       h2 5.2  Etapas
     p.mb-5  Para llevar a cabo un plan de producción es necesario tener en cuenta una serie de pasos que contribuirán a que las estimaciones sean más cercanas a la realidad. Lo anterior es de vital importancia dado que plantearse objetivos realistas evitará sobre inversiones y permitirá una medición más objetiva de la capacidad de la línea productiva. Se recomienda que cualquier plan de producción conste por lo menos de las siguientes etapas:
-    .tarjeta.color-acento-botones.negMargin.p-5.r-0
+    .tarjeta.color-acento-contenido.negMargin.p-5.r-0
       SlyderB.mb-5(:datos="datosSlyder")
 
 
@@ -90,4 +103,6 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="sass" scoped>
+.h180{max-height: 180px}
+</style>
