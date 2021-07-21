@@ -95,7 +95,7 @@
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(data-aos="fade-up", data-aos-delay='0') 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
-              .bloque-texto-a__texto.p-4
+              .bloque-texto-a__texto.p-4.shadow-box
                 p Suele plantearse a más largo plazo que los presupuestos operativos, ya que contempla inversiones significativas enfocadas al crecimiento del capital de la compañía. Las compras que se planteen en este presupuesto deben estar debidamente justificadas dado que representan erogaciones significativas de dinero.
             .col-lg-4.mb-4.mb-lg-0
               figure
@@ -111,7 +111,7 @@
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(data-aos="fade-up", data-aos-delay='0') 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
-              .bloque-texto-a__texto.p-4
+              .bloque-texto-a__texto.p-4.shadow-box
                 p Suelen ser los últimos en ser elaborados, ya que consolidan la información de los presupuestos de operación y de capital. Se expresan como estados financieros proyectados, por lo que suelen estar compuestos, por lo menos, de un estado de situación financiera, un estado de resultados, un estado de cambios en el patrimonio y un estado de flujos de efectivo. Pueden ser tan detallados como las directivas lo requieran, así mismo, será la precisión de los diagnósticos efectuados a partir de dicha información.
             .col-lg-4.mb-4.mb-lg-0
               figure
@@ -180,7 +180,7 @@
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
-              .bloque-texto-a__texto.p-4
+              .bloque-texto-a__texto.p-4.shadow-box
                 p Una vez se tienen claras las estrategias a gran escala se deben aterrizar las medidas a acciones específicas, destinando una asignación de recursos detallada para cada actividad. Todas las partidas serán consolidadas en los tipos presupuestales descritos previamente, y serán compartidos a las áreas involucradas de tal manera que exista un flujo de información oportuno y suficiente para que cada empleado pueda aportar desde su posición en la ejecución de sus nuevas tareas.
             .col-lg-4.mb-4.mb-lg-0
               figure
@@ -201,7 +201,7 @@
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(data-aos="fade-up", data-aos-delay='0') 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
-              .bloque-texto-a__texto.p-4
+              .bloque-texto-a__texto.p-4.shadow-box
                 p El control presupuestal parte de la correcta retroalimentación del sistema. Es en este momento cuando se transmitirá la percepción de los resultados obtenidos por las nuevas medidas implantadas de acuerdo con la planeación estratégica. Como es natural, muchas de las políticas aplicadas pueden no producir los resultados que se habían estimado, por lo que una comunicación oportuna evitará reprocesos y desgastes administrativos innecesarios.
             .col-lg-4.mb-4.mb-lg-0
               figure
