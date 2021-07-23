@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="919" height="348" viewBox="0 0 919 348">
+  <g id="t4-i15" transform="translate(-340 -9704)">
+    <g id="Group_96677" data-name="Group 96677" transform="translate(392.074 10217.036)">
+      <rect id="Rectángulo_32775" data-name="Rectángulo 32775" width="919" height="348" transform="translate(-52.074 -513.036)" fill="#fff"/>
+      <rect id="Rectangle_32833" data-name="Rectangle 32833" width="845.151" height="1.906" transform="translate(-15.149 -483.937)" fill="#cac8c8"/>
+      <rect id="Rectangle_32834" data-name="Rectangle 32834" width="845.151" height="1.906" transform="translate(-15.149 -459.039)" fill="#cac8c8"/>
+      <rect id="Rectangle_32835" data-name="Rectangle 32835" width="845.151" height="1.906" transform="translate(-15.149 -432.693)" fill="#cac8c8"/>
+      <rect id="Rectangle_32836" data-name="Rectangle 32836" width="845.151" height="1.906" transform="translate(-15.149 -406.946)" fill="#cac8c8"/>
+      <rect id="Rectangle_32837" data-name="Rectangle 32837" width="845.151" height="1.906" transform="translate(-15.149 -380.185)" fill="#cac8c8"/>
+      <rect id="Rectangle_32838" data-name="Rectangle 32838" width="845.151" height="1.906" transform="translate(-15.149 -355.517)" fill="#cac8c8"/>
+      <rect id="Rectangle_32839" data-name="Rectangle 32839" width="845.151" height="1.906" transform="translate(-15.149 -329.182)" fill="#cac8c8"/>
+      <rect id="Rectangle_32840" data-name="Rectangle 32840" width="845.151" height="1.906" transform="translate(-15.149 -303.124)" fill="#cac8c8"/>
+      <rect id="Rectangle_32841" data-name="Rectangle 32841" width="845.151" height="1.906" transform="translate(-15.149 -277.432)" fill="#cac8c8"/>
+      <rect id="Rectangle_32842" data-name="Rectangle 32842" width="845.151" height="1.906" transform="translate(-15.149 -251.047)" fill="#cac8c8"/>
+      <text id="Proceso_1" data-name="Proceso 1" transform="translate(97.817 -229.889)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-45.22" y="0">Proceso 1</tspan></text>
+      <text id="Proceso_2" data-name="Proceso 2" transform="translate(299.214 -229.889)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-45.22" y="0">Proceso 2</tspan></text>
+      <text id="Proceso_3" data-name="Proceso 3" transform="translate(499.999 -229.889)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-45.22" y="0">Proceso 3</tspan></text>
+      <text id="Proceso_4" data-name="Proceso 4" transform="translate(700.571 -229.889)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-45.22" y="0">Proceso 4</tspan></text>
+      <g id="Group_96677-2" data-name="Group 96677">
+        <rect id="Rectangle_32843" data-name="Rectangle 32843" width="66.857" height="209.899" transform="translate(31.143 -459.039)" fill="#fb9e36"/>
+        <rect id="Rectangle_32844" data-name="Rectangle 32844" width="66.857" height="183.552" transform="translate(98 -432.693)" fill="#f1d54e"/>
+      </g>
+      <g id="Group_96678" data-name="Group 96678">
+        <rect id="Rectangle_32845" data-name="Rectangle 32845" width="66.857" height="106.376" transform="translate(232.357 -355.517)" fill="#fb9e36"/>
+        <rect id="Rectangle_32846" data-name="Rectangle 32846" width="66.857" height="93.024" transform="translate(299.214 -342.165)" fill="#f1d54e"/>
+      </g>
+      <g id="Group_96679" data-name="Group 96679">
+        <rect id="Rectangle_32847" data-name="Rectangle 32847" width="66.857" height="157.805" transform="translate(433.142 -406.946)" fill="#fb9e36"/>
+        <rect id="Rectangle_32848" data-name="Rectangle 32848" width="66.857" height="106.376" transform="translate(499.999 -355.517)" fill="#f1d54e"/>
+      </g>
+      <g id="Group_96680" data-name="Group 96680">
+        <rect id="Rectangle_32849" data-name="Rectangle 32849" width="66.857" height="105.423" transform="translate(633.714 -354.564)" fill="#fb9e36"/>
+        <rect id="Rectangle_32850" data-name="Rectangle 32850" width="66.857" height="145.317" transform="translate(700.571 -394.458)" fill="#f1d54e"/>
+      </g>
+      <g id="Group_96681" data-name="Group 96681">
+        <text id="Resultado_presupuestado" data-name="Resultado presupuestado" transform="translate(315.758 -195.003)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-96.534" y="0">Resultado presupuestado</tspan></text>
+        <text id="Resultado_obtenido" data-name="Resultado obtenido" transform="translate(546.928 -195.003)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-73.304" y="0">Resultado obtenido</tspan></text>
+        <rect id="Rectangle_32851" data-name="Rectangle 32851" width="15.674" height="15.674" transform="translate(194.621 -207.809)" fill="#fb9e36"/>
+        <rect id="Rectangle_32852" data-name="Rectangle 32852" width="15.674" height="15.674" transform="translate(448.099 -207.809)" fill="#f1d54e"/>
+      </g>
+    </g>
+  </g>
+</svg>

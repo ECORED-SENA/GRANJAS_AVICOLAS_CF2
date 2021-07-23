@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="150" viewBox="0 0 168 150">
+  <g id="t1-i18" transform="translate(-307 -5960.7)">
+    <rect id="Rectangle_5165" data-name="Rectangle 5165" width="168" height="150" transform="translate(307 5960.7)" fill="none"/>
+    <g id="Group_92074" data-name="Group 92074" transform="translate(-19.5 -1049.8)">
+      <path id="Path_134295" data-name="Path 134295" d="M0,0H31.339l9.826,16.771H0Z" transform="translate(356.5 7043.156)" fill="#f1d54e"/>
+      <path id="Path_134295_-_Outline" data-name="Path 134295 - Outline" d="M0-2.5H31.339A2.5,2.5,0,0,1,33.5-1.264l9.826,16.771a2.5,2.5,0,0,1-2.157,3.764H0a2.5,2.5,0,0,1-2.5-2.5V0A2.5,2.5,0,0,1,0-2.5Zm29.906,5H2.5V14.271H36.8Z" transform="translate(356.5 7043.156)"/>
+      <rect id="Rectangle_31794" data-name="Rectangle 31794" width="108" height="83" transform="translate(356.5 7055.5)" fill="#f1d54e"/>
+      <path id="Rectangle_31794_-_Outline" data-name="Rectangle 31794 - Outline" d="M0-2.5H108A2.5,2.5,0,0,1,110.5,0V83a2.5,2.5,0,0,1-2.5,2.5H0A2.5,2.5,0,0,1-2.5,83V0A2.5,2.5,0,0,1,0-2.5Zm105.5,5H2.5v78h103Z" transform="translate(356.5 7055.5)"/>
+      <rect id="Rectangle_31795" data-name="Rectangle 31795" width="21" height="44" transform="translate(399.5 7047.5)" fill="#f80"/>
+      <path id="Rectangle_31795_-_Outline" data-name="Rectangle 31795 - Outline" d="M0-2.5H21A2.5,2.5,0,0,1,23.5,0V44A2.5,2.5,0,0,1,21,46.5H0A2.5,2.5,0,0,1-2.5,44V0A2.5,2.5,0,0,1,0-2.5Zm18.5,5H2.5v39h16Z" transform="translate(399.5 7047.5)"/>
+      <rect id="Rectangle_31796" data-name="Rectangle 31796" width="21" height="9" transform="translate(399.5 7031.5)" fill="#f80"/>
+      <path id="Rectangle_31796_-_Outline" data-name="Rectangle 31796 - Outline" d="M0-2.5H21A2.5,2.5,0,0,1,23.5,0V9A2.5,2.5,0,0,1,21,11.5H0A2.5,2.5,0,0,1-2.5,9V0A2.5,2.5,0,0,1,0-2.5Zm18.5,5H2.5v4h16Z" transform="translate(399.5 7031.5)"/>
+      <path id="Polygon_1" data-name="Polygon 1" d="M33,0,66,31H0Z" transform="translate(443.5 7115.5) rotate(180)" fill="#ff8700"/>
+      <path id="Polygon_1_-_Outline" data-name="Polygon 1 - Outline" d="M33-2.5a2.493,2.493,0,0,1,1.712.678l33,31A2.5,2.5,0,0,1,66,33.5H0a2.5,2.5,0,0,1-2.324-1.579,2.5,2.5,0,0,1,.613-2.743l33-31A2.493,2.493,0,0,1,33-2.5Zm26.687,31L33,3.43,6.313,28.5Z" transform="translate(443.5 7115.5) rotate(180)"/>
+    </g>
+  </g>
+</svg>
