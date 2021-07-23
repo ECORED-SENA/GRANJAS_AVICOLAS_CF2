@@ -132,22 +132,22 @@
         .tabla-b.color-acento-contenido.mb-5
           table.text-bold
             tr
-              th Materia prima:
+              th Materia prima
               td $ 500
             tr
-              th Mano de obra directa:
+              th Mano de obra directa
               td $ 200
             tr
-              th Costos indirectos de fabricación:
+              th Costos indirectos de fabricación
               td $ 100
             tr.bg-color-row
-              th Total de costos de producción:
+              th Total de costos de producción
               td $ 800
             tr
-              th Unidades producidas:
+              th Unidades producidas
               td 10
             tr
-              th Costo de producción unitario ($800/10):
+              th Costo de producción unitario ($800/10)
               td $ 80 
 
 

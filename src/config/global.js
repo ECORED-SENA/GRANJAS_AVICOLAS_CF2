@@ -89,7 +89,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Técnicos',
+            titulo: 'Definición y ejemplos',
             hash: 't_3_1',
           },
           {
@@ -200,7 +200,7 @@ export default {
       referencia:
         'Burbano A. (2006). Costos y presupuestos. Segunda edición. Ediciones Uniandes.',
       link:
-        'https://es.scribd.com/read/436270130/Costos-y-presupuestos-Segunda-edicion',
+        'https://www.scribd.com/read/436221926/Presupuestos-Bajo-normas-internacionales-de-informacion-financiera-y-taxonomia-XBRL',
     },
     {
       referencia:
@@ -324,7 +324,33 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Andrés Felipe Avilan Lozano',
+        cargo: 'Experto temático',
+        centro: 'Centro Agropecuario la granja - Regional Tolima',
+      },
+      {
+        nombre: 'Lady Johanna Cruz Sarmiento',
+        cargo: 'Experta temática',
+        centro: 'Centro Agropecuario la granja - Regional Tolima',
+      },
+      {
+        nombre: 'Diana Marcela Luis Vásquez',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de la gestión industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Evaluadora instruccional',
+        centro: 'Centro de gestión industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Revisión de estilo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     desarrolloProducto: [
@@ -332,43 +358,66 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Jorge Armando Villamizar Moreno',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Víctor Raúl Cárdenas Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Camilo Villamizar Lizcano',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Luis Fabian Robles Méndez',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

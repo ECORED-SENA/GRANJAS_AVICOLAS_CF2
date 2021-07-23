@@ -17,15 +17,15 @@
           img(src='@/assets/curso/t3-i1.svg', alt='imagen decorativa') 
 
     #t_3_1.titulo-segundo
-      h2 3.1  Técnicos
+      h2 3.1  Definición y ejemplos
     .row.mb-5
       .col-lg-3
         figure.mb-5(data-aos="fade-left", data-aos-delay='0')
           img(src='@/assets/curso/t3-i2.svg', alt='personas en una fabrica')        
       .col-lg-9
         .cajon.color-acento-contenido.p-4.mb-4
-          p.mb-3 El presupuesto funciona como un elemento de control que permite medir el desempeño de los funcionarios y delimitar las responsabilidades, pero también facilita la integración de procesos entre las sub partes de la empresa. La evaluación posterior permite determinar qué tan distante está la empresa de alcanzar sus metas, para así, implementar cambios de manera más oportuna, reduciendo costos y aumentando la eficiencia.
-        p Existen diversas formas de clasificar las empresas, cada una de ellas obedeciendo a un criterio concreto que permite identificar factores coincidentes, y, por lo tanto, abordar definiciones, medidas y estrategias de manera conjunta según las necesidades del usuario de la información. La siguiente figura expone aquellas que gozan de mayor popularidad y resultan más útiles en el entorno, para posteriormente detallar cada una de ellas.
+          p.mb-3 Podemos definir el presupuesto como un sistema de análisis que se alimenta de la información presente para estimar el futuro de los procesos productivos y financieros de una empresa. La alimentación de la hoja de trabajo puede incluir todos los recursos vistos previamente, es decir, de capital, humanos, materiales y técnicos.
+        p El resultado final debe expresarse en indicadores financieros, revelando, por ejemplo, la cantidad de unidades a producir, la estimación de los márgenes de rentabilidad, los costos totales de producción, los tiempos y niveles de recaudo esperados, entre otros. Sintetizando lo anterior, el presupuesto toma la información histórica y presente para realizar proyecciones en un horizonte de tiempo determinado. La figura a continuación recrea esta relación a través del siguiente diagrama.
     .row.mb-5.justify-content-center
       .col-lg-10
         .cajon.color-green-light.p-4
@@ -43,8 +43,8 @@
     .row.mb-5
       .col-lg-7(data-aos="fade-left", data-aos-delay='0')
         p.mb-4  El presupuesto es una herramienta que facilita la administración de la compañía, al permitir establecer un camino de acción enfocado a objetivos concretos. Al ser un sistema proyectivo permite prever situaciones inciertas, posibilitando anticiparse al futuro para ejecutar acciones de naturaleza preventiva. El análisis de indicadores pasados lleva a plantear metas más razonables acordes a la evolución propia del negocio; con esto se hace menos probable la frustración por esperar resultados demasiado ambiciosos. 
-        .cajon.color-acento-contenido.p-4
-          Con un objetivo claro es posible idear estrategias que propendan a esos resultados para posteriormente analizar los esperados con los conseguidos, y evaluar si las estrategias resultaron efectivas. De esta forma, el presupuesto aportará con la consecución de metas y mejoramiento de estrategias para procurar por un crecimiento continuo.
+        .cajon.color-acento-contenido.p-4 
+          p Con un objetivo claro es posible idear estrategias que propendan a esos resultados para posteriormente analizar los esperados con los conseguidos, y evaluar si las estrategias resultaron efectivas. De esta forma, el presupuesto aportará con la consecución de metas y mejoramiento de estrategias para procurar por un crecimiento continuo.
 
       .col-lg-5(data-aos="fade-right", data-aos-delay='25')
         figure.mb-5
@@ -166,7 +166,7 @@
     h3.titulo-tercero Planeación estratégica
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/1yAOUdaaYxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .cajon.color-light-green.p-4.mb-5(data-aos="flip-down", data-aos-delay='0')
       figcaption.customCaption.mb-2  Figura 8 Componentes de la planeación estratégica
@@ -192,7 +192,7 @@
         .cajon.color-light-green.p-4.mb-5(data-aos="flip-down", data-aos-delay='0')
           figcaption.customCaption.mb-2  Figura 9 Diagrama de tiempos
           figure.mb-5
-            img(src='@/assets/curso/t3-i11.svg', alt='grafico enfoques de tiempo')    
+            img(src='@/assets/curso/t3-ix1.png', alt='grafico enfoques de tiempo')    
           figcaption.mb-2 <b>Nota.</b> Tomado del libro “Costos y presupuestos”. Burbano, (2006).
 
     h3.titulo-tercero Control presupuestal

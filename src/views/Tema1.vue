@@ -10,7 +10,7 @@
 
     .row.mb-5.justify-content-center.slideInUp
       .col-lg-10
-        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+        .bloque-texto-a.color-secundario.p-4.p-md-5
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4.shadow-box
@@ -275,7 +275,7 @@
               figure
                 img(src='@/assets/curso/t1-i18.svg', alt='imagen decorativa')  
             .col-lg-9
-              .h4 Decreto 2420 de 2015 Normas de contabilidad, de información financiera y de aseguramiento de información
+              .h4 Decreto 2420 de 2015 Normas de contabilidad, de información financiera y de aseguramiento de información.
               p.mb-4  Para profundizar en cuanto a los marcos normativos contables aplicables a las empresas que desarrollen su actividad en Colombia, se recomienda consultar el Decreto único reglamentario 2420 de 2015 y sus modificatorios.
               
               a.anexo.mb-4.mb-lg-0(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76745" target="_blank")
@@ -383,7 +383,7 @@
 
     h3.titulo-tercero Modelos
     .row.mb-5.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-10
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(data-aos="fade-up", data-aos-delay='0') 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
@@ -394,7 +394,7 @@
                 img(src='@/assets/curso/t1-i27.svg', alt='imagen decorativa')  
 
       .col-lg-10
-        p.mb-5  Ahora bien, si se busca una guía para su planeación y ejecución, ya sea por falta de experticia o por la incertidumbre que generan las condiciones para desarrollar un trabajo, es posible aplicar un modelo desarrollado por un tercero.
+        p  Ahora bien, si se busca una guía para su planeación y ejecución, ya sea por falta de experticia o por la incertidumbre que generan las condiciones para desarrollar un trabajo, es posible aplicar un modelo desarrollado por un tercero.
 
     hr
     .row.justify-content-center.mb-5
@@ -447,7 +447,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10.mb-5
-        h3 Modelo de Mintzberg y la estructura en cinco:
+        h3 Modelo de Mintzberg y la estructura en cinco
         p Opera bajo una premisa similar al modelo anterior, ya que considera como elementos más relevantes de la organización la división del trabajo y la coordinación de las tareas para funcionar de manera armoniosa. Según su autor, una empresa puede dividirse en cinco categorías:
 
       .col-lg-10
