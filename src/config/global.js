@@ -140,7 +140,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.3',
-            titulo: 'Cálculos',
+            titulo: 'Cálculo',
             hash: 't_4_3',
           },
         ],
@@ -230,7 +230,7 @@ export default {
       referencia:
         'Rincón C. y Narváez J. (2017). Presupuestos bajo normas internacionales de información financiera y taxonomía XBRL. Ediciones de la U.',
       link:
-        'https://es.scribd.com/read/436221926/Presupuestos-Bajo-normas-internacionales-de-informacion-financiera-y-taxonomia-XBRL.',
+        'https://www.scribd.com/read/436221926/Presupuestos-Bajo-normas-internacionales-de-informacion-financiera-y-taxonomia-XBRL',
     },
     {
       referencia:
